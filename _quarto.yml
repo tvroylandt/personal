@@ -13,7 +13,7 @@ website:
 format:
   html:
     theme: sandstone
-    mainfont: "Figtree"
+    mainfont: "sans-serif"
     css: styles.css
     toc: true
 
