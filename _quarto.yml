@@ -3,6 +3,7 @@ project:
 
 website:
   title: "Thomas Vroylandt"
+  search: false
   navbar:
     tools:
       - icon: linkedin
