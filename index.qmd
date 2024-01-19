@@ -5,7 +5,9 @@ title: "Thomas Vroylandt"
 Hi, I'm Thomas
 
 I founded [Kantiles](https://kantiles.com/), where I do consulting work around statistics, R and social policies.
-I previously worked in France's Ministry for Social Affairs, Pôle Emploi and Unedic. As a consultant, I partnered with [R for the Rest of Us](https://rfortherestofus.com/consulting).
+I previously worked in France's Ministry for Social Affairs, Pole Emploi and Unedic.
+
+As a consultant, I partnered with [R for the Rest of Us](https://rfortherestofus.com/consulting).
 
 Contact : thomas(at)kantiles.com
 
