@@ -1,8 +1,6 @@
 ---
-title: "Thomas Vroylandt"
+title: "Hi, I'm Thomas"
 ---
-
-Hi, I'm Thomas
 
 I founded [Kantiles](https://kantiles.com/), where I do consulting work around statistics, R and social policies.
 I previously worked in France's Ministry for Social Affairs, Pole Emploi and Unedic.
