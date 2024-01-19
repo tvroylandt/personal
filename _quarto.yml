@@ -5,9 +5,6 @@ website:
   title: "Thomas Vroylandt"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
       tools:
       - icon: linkedin
         href: https://www.linkedin.com/in/thomas-vroylandt-9a2334190/?originalSubdomain=fr
