@@ -4,7 +4,13 @@ project:
 website:
   title: "Thomas Vroylandt"
   search: false
-  navbar:
+  sidebar:
+    style: "docked"
+    pinned: false
+    contents:
+      - about.qmd
+      - articles.qmd
+      - talks.qmd
     tools:
       - icon: linkedin
         href: https://www.linkedin.com/in/thomas-vroylandt-9a2334190/?originalSubdomain=fr
@@ -13,9 +19,9 @@ website:
 
 format:
   html:
-    theme: sandstone
+    theme: journal
     mainfont: "sans-serif"
-    css: styles.css
+    css: styles.scss
     toc: true
 
 execute:
