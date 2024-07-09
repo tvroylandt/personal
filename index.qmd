@@ -20,7 +20,7 @@ img {
 </style>
 
 :::portrait
-<img src="assets/photo-Thomas.jpg" width="250px">
+<img src="assets/photo-Thomas.jpg" width="150px">
 :::
 
 Welcome to my personal website !
