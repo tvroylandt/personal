@@ -1,7 +1,12 @@
 **Hi, I'm Thomas**  {{< fa hand >}}
 
 <style>
+/* to be transfered to style file */
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+body{
+    font-family: Lexend, sans-serif;
+}
 
 img {
     box-shadow: 10px 10px 10px darkgrey;
