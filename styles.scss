@@ -1,11 +1,10 @@
-/*-- scss:defaults --*/
 
-// fonts
-$font-family-sans-serif: "Lexend" !default;
-
-/*-- scss:rules --*/
 
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+body{
+    font-family: Lexend;
+}
 
 img {
     box-shadow: 10px 10px 10px darkgrey;
