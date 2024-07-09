@@ -4,26 +4,20 @@
     "href": "articles.html",
     "title": "Articles",
     "section": "",
-    "text": "Work In Progress",
-    "crumbs": [
-      "Articles"
-    ]
+    "text": "Work In Progress"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Hi, I’m Thomas",
+    "title": "Thomas Vroylandt",
     "section": "",
-    "text": "I founded Kantiles, where I do consulting work around statistics, R and social policies. I previously worked in France’s Ministry for Social Affairs, Pole Emploi and Unedic.\nAs a consultant, I partnered with R for the Rest of Us.\nContact : thomas(at)kantiles.com"
+    "text": "Hi, I’m Thomas \n\n\n\nWelcome to my personal website !\nI’m a data everything from France (replace with analyst/scientist or whatever you prefer). I work as an independant consultant (in fact with my wife) @Kantiles.\nI often work with R for the Rest of Us.\n You can reach me at thomas@kantiles.com\nI like to build reports by hundreds, create dashboards that won’t break your mind or your computer, refine data workflow or simply help people to do a better job with data.\n My toolbox includes R, Quarto, Python, JavaScript (mostly Observable) and some styling languages like HTML or CSS.\nCheckout my work:\nAbout PDF reporting:\n\nquarto.report is a Quarto extension to produce better PDF reports without using LaTeX and without to lost your sanity. It’s the successor or pagedreport\nSome clients made our work public, see:\n\nIA2030 for IVAC & WHO\n\n \n\nOregon Voices for TFFF\n\n \n\nHousing Data Profiles for PSC Housing\n\n \n\nOn the interactive side:\n\nI did some interactive dashboard with Observable too\nI also made some data exploration with MapLibre and JS\n\n\nIf you came here after UseR 2024 of the Rencontres R, here are my talks :\n\nUseR 2024 about parametrized reporting\nRencontres R 2024 about Excel data cleaning\nRencontres R 2021 about creating a template with {pagedown}\n\nOn my freetime I like to run and take care of my children (or just trying to survive to this mess they create everyday)."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "Work In Progress",
-    "crumbs": [
-      "About"
-    ]
+    "text": "Work In Progress"
   }
 ]
