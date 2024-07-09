@@ -16,7 +16,7 @@ website:
 format:
   html:
     theme: journal
-    mainfont: "sans-serif"
+    mainfont: "Lexend"
     css: styles.scss
     toc: true
 
