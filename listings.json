@@ -1,0 +1,14 @@
+[
+  {
+    "listing": "/clients.html",
+    "items": [
+      "/clients/test.html"
+    ]
+  },
+  {
+    "listing": "/articles.html",
+    "items": [
+      "/articles/test.html"
+    ]
+  }
+]
