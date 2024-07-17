@@ -73,3 +73,4 @@ If you came here after UseR 2024 of the Rencontres R, here are my talks :
 -   [Rencontres R 2021](https://github.com/tvroylandt/pagedown_rr2021) about creating a template with {pagedown}
 
 On my freetime I like to run and take care of my children (or just trying to survive to this mess they create everyday).
+

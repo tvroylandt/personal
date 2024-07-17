@@ -2,4 +2,54 @@
 title: "About"
 ---
 
-Work In Progress
+Quick summary about myself. Please reach out of find my LinkedIn profile or articles section to know more.
+
+## Professional experiences
+
+2023-present: Co-Founder and Consultant - Kantiles
+
+2020-present: Consultant - R for the Rest of Us
+
+2019-present: Independant data everything
+
+2021-2024: Data scientist - Unedic, organization in charge of unemployment policy
+
+2017-2021: Statisticien - Pole emploi, agency in charge of unemployment
+
+2015-2017: Statistician and survey manager - Ministry of Social Affairs
+
+2015: Assistant researcher in political sciences - Strasburg University
+
+## Education
+
+2019: Cartography with R - ThinkR
+
+2015: Msc in Quantitative Sociology - ENS, EHESS, ENSAE
+
+2013: Bsc in History - Burgundy University
+
+2013: Bsc in Sociology - Burgundy University
+
+## Teaching
+
+2019: Mapping with R - Internal
+
+2019: Data cleaning with R - Internal
+
+2018-2019: Introduction to quantitative methods - Catholic Institute of Paris
+
+## Technical Skills
+
+- R
+- Python
+- SQL
+- JS
+- HTML/CSS
+
+- Git/Github
+
+## Languages
+
+- French (native)
+- English (fluent)
+- German (good level)

@@ -1,0 +1,12 @@
+---
+title: "Use cases"
+
+listing:
+  categories: true
+  sort: "date desc"
+  type: grid
+  page-size: 9
+
+  contents:
+    - "clients/"
+---

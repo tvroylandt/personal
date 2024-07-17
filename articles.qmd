@@ -1,5 +1,23 @@
 ---
 title: "Articles"
----
 
-Work In Progress
+listing:
+  categories: true
+  sort: "date desc"
+  type: grid
+  page-size: 9
+
+  contents:
+    - "articles/"
+    - path: https://pagedreport.rfortherestofus.com/
+      title: "`pagedreport`"
+      description: "`pagedreport` is an R package to help you make beautiful PDF-based reports from RMarkdown"
+      date: "2021-05-01"
+      categories: [Reports, RMarkdown, Templates]
+    - path: https://github.com/kantiles/quarto.report/
+      title: "`quarto.report`"
+      description: "`quarto.report` is a Quarto extension to help you create reports in Quarto without the burden of handling the stylesheet"
+      date: "2024-07-09"
+      categories: [Reports, Quarto, Templates]
+
+---

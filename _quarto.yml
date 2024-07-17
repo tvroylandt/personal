@@ -7,11 +7,17 @@ website:
   sidebar:
     style: "docked"
     pinned: false
+    contents:
+      - about.qmd
+      - articles.qmd
+      - clients.qmd
     tools:
       - icon: linkedin
         href: https://www.linkedin.com/in/thomas-vroylandt-9a2334190/?originalSubdomain=fr
       - icon: github
         href: https://github.com/tvroylandt
+    left: 
+
 
 format:
   html:
