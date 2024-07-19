@@ -21,3 +21,121 @@ listing:
       categories: [Reports, Quarto, Templates]
 
 ---
+
+Projects I was involved in.
+
+_Talks_
+
+RR2021
+RR2024
+Meetup R Addicts retour RR 2024
+UseR 2024
+
+_Blog posts_
+
+Reprendre les posts Tillac
+
+_Conseil - Drees_
+
+- Panorama statistique : https://data.drees.solidarites-sante.gouv.fr/explore/?q=PANORAMA+STATISTIQUE&sort=modified
+
+- ISD : https://drees.solidarites-sante.gouv.fr/240528_DATA_ISD
+
+_Conseil - R for the Rest of Us_
+
+_Conseil - autres_
+
+Propre
+gouvdown https://github.com/spyrales/gouvdown
+
+_Formations_
+
+ICP
+
+https://tvroylandt.github.io/r-cartostat/
+https://github.com/tvroylandt/r-graph?tab=readme-ov-file
+
+_Unédic_
+
+https://www.unedic.org/publications/comprendre-le-sous-emploi
+
+https://www.unedic.org/publications/effets-de-ladaptation-des-regles-dassurance-chomage-la-conjoncture
+
+https://www.unedic.org/publications/suivi-et-effets-de-la-reglementation-d-assurance-chomage-en-2023
+
+https://www.unedic.org/publications/suivi-de-la-reglementation-2021-d-assurance-chomage
+
+https://www.unedic.org/publications/assurance-chomage-et-minima-sociaux-panorama-des-dispositifs
+
+https://www.unedic.org/publications/comment-s-articulent-chomage-prime-d-activite-et-rsa
+
+
+_Pôle emploi_
+
+Tensions : https://dares.travail-emploi.gouv.fr/publications/les-tensions-sur-le-marche-du-travail-en-2019
+
+VPPEC Sport : https://www.strategie.gouv.fr/sites/strategie.gouv.fr/files/atoms/files/fs-2019-rapport-vppec-sport-fevrier-2019.pdf
+
+Compétences : https://statistiques.francetravail.org/offres/offrespub/201566
+
+BMO : https://statistiques.francetravail.org/bmo/bmopub/209090
+
+https://statistiques.francetravail.org/bmo/bmopub/207249
+
+https://statistiques.francetravail.org/bmo/bmopub/207884
+
+BMO Flash : https://statistiques.francetravail.org/offres/offrespub/206736
+
+Offres emploi : https://www.francetravail.org/files/live/sites/peorg/files/documents/Statistiques-et-analyses/S%26I/SI_18.006.pdf
+
+https://statistiques.francetravail.org/offres/offrespub/207732
+
+https://statistiques.francetravail.org/offres/offrespub/199728
+
+Intérim : https://www.francetravail.org/files/live/sites/peorg/files/documents/Statistiques-et-analyses/S%26I/si_19.014_interim_2019janv.pdf
+
+Métiers : https://www.francetravail.org/statistiques-analyses/entreprises/metiers/tableau-de-la-filiere-maritime-et-fluviale-en-france.html?type=article
+
+
+
+_Drees_
+
+https://drees.solidarites-sante.gouv.fr/publications/etudes-et-resultats/les-assistantes-maternelles-ont-gagne-en-moyenne-1-108-euros-en
+
+https://drees.solidarites-sante.gouv.fr/publications/etudes-et-resultats/une-baisse-de-7-des-etudiants-inscrits-en-formations-sociales
+
+https://drees.solidarites-sante.gouv.fr/publications/etudes-et-resultats/les-assistantes-maternelles-gardent-8-denfants-de-plus-en-2014
+
+https://drees.solidarites-sante.gouv.fr/publications/etudes-et-resultats/7-800-etudiants-en-formation-dassistant-de-service-social-en-2016
+
+https://drees.solidarites-sante.gouv.fr/publications/etudes-et-resultats/formations-en-travail-social-62-000-etudiants-en-2014
+
+https://drees.solidarites-sante.gouv.fr/publications/etudes-et-resultats/115-000-personnes-travaillent-en-2016-dans-le-secteur-de-laction
+
+https://drees.solidarites-sante.gouv.fr/publications/les-dossiers-de-la-drees/des-conditions-de-travail-en-ehpad-vecues-comme-difficiles
+
+_Articles_
+
+https://www.cairn.info/revue-savoir-agir-2015-3-page-103.htm
+
+https://www.cairn.info/revue-participations-2017-3-page-49.htm
+
+_Journée d'études_
+
+Vroylandt (Th.), « Ethnographie, numérique et statistiques : les Veilleurs de la “Manif pour tous” », Journée d’études « De la constitution d’un corpus aux analyses statistiques », Paris, Université de Nanterre, 10 octobre 2016.
+
+_Comptes-rendus de publications_
+
+https://journals.openedition.org/lectures/13204
+https://www.nonfiction.fr/fiche-perso-1783-thomas-vroylandt.htm
+
+_Scoutisme_
+
+https://www.associations.gouv.fr/IMG/pdf/rapport_final_etude_fdva.pdf
+
+https://www.youtube.com/watch?v=BpW2_Gvs2Ds
+https://github.com/tvroylandt/sgdf_pagedown
+
+https://github.com/tvroylandt/intuthu
+
+Autres projets publics ?
