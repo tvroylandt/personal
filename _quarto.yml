@@ -23,7 +23,7 @@ format:
   html:
     theme: journal
     mainfont: "Lexend"
-    css: styles.scss
+    css: styles.css
     toc: true
 
 execute:
