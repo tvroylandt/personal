@@ -10,3 +10,17 @@ listing:
   contents:
     - "clients/"
 ---
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+img {
+    box-shadow: 10px 10px 10px darkgrey;
+    
+  }
+
+.portrait img {
+    box-shadow: none;
+    border-radius: 50%;
+}
+</style>
