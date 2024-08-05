@@ -26,10 +26,11 @@ Projects I was involved in.
 
 _Talks_
 
-RR2021
-RR2024
-Meetup R Addicts retour RR 2024
-UseR 2024
+RR2021 pagedown https://www.youtube.com/watch?v=Vk5q_pvp1EE + https://github.com/tvroylandt/pagedown_rr2021
+RR2021 gouvdown https://www.youtube.com/watch?v=18_XWzG6KdM + https://github.com/tvroylandt/gouvdown_rr_2021
+RR2024 https://github.com/tvroylandt/rr_2024
+Meetup R Addicts retour RR 2024 https://github.com/tvroylandt/rr_2024_retour
+UseR 2024 https://github.com/tvroylandt/user_2024_parametrized_reporting
 
 _Blog posts_
 
@@ -41,7 +42,53 @@ _Conseil - Drees_
 
 - ISD : https://drees.solidarites-sante.gouv.fr/240528_DATA_ISD
 
-_Conseil - R for the Rest of Us_
+_Conseil - R for the Rest of Us_ --> en marquer certains en draft ?
+
+CT data : https://www.ctdata.org/blog/2020-psc-housing-data-profiles + https://housingprofiles.pschousing.org/
+
+IA2030 : https://publichealth.jhu.edu/ivac/2024/new-ia2030-country-profiles-to-track-immunization-achievements /+ https://scorecard.immunizationagenda2030.org/pdfs/afg.pdf
+
+OHDC Farmworker Assessment Needs : https://www.ohdc.org/uploads/1/1/2/4/11243168/ohdc_farmworker_needs_assessment_2022.pdf
+
+Oregon by the Numbers : https://www.tfff.org/oregon-numbers/
+
+Oregon Voices : https://www.orvoices.org/your-county/
+
+OMNI : https://github.com/rfortherestofus/omni
+
+ORS Impact : https://funderscommittee.org/2020censusstatereports/
+
+IVAC Pneumonia : https://publichealth.jhu.edu/ivac/resources/pneumonia-diarrhea-progress-reports
+
+CBEM Judi's House : https://judishouse.org/research-tools/cbem/cbem-key-topics/cbem-race-ethnicity/cbem-race-ethnicity-reports/
+
+MPSI PAX template for Crystal : https://github.com/rfortherestofus/mpsi-pax/tree/main
+
+The Mark : https://github.com/rfortherestofus/themark?tab=readme-ov-file
+
+Sustain East Africa
+
+PMP : https://prosperportland.us/
+
+Torch : https://github.com/rfortherestofus/torch-leadership-reports + custom course
+
+Reading Partners : https://github.com/rfortherestofus/rpdashboard
+
+PP covid relief : https://github.com/rfortherestofus/pp-covid-biz-relief
+
+MPSI Covid reports : https://github.com/rfortherestofus/mpsi-covid-reports/tree/master
+
+Unicef Covid : https://github.com/rfortherestofus/unicef-covid
+
+CWP 
+
+CSEAP
+
+Pubs Effect
+
+Some project like NOAA Fisheries 
+
+Internal API : Muse, Statamic, ConvertKit, ...
 
 _Conseil - autres_
 
@@ -50,10 +97,12 @@ gouvdown https://github.com/spyrales/gouvdown
 
 _Formations_
 
-ICP
+ICP : https://github.com/tvroylandt/icp_techniques_quanti_2019
 
 https://tvroylandt.github.io/r-cartostat/
 https://github.com/tvroylandt/r-graph?tab=readme-ov-file
+
+Pagedown course
 
 _Unédic_
 
