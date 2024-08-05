@@ -22,8 +22,8 @@ website:
 format:
   html:
     theme: journal
-    mainfont: "Lexend"
-    css: styles.css
+    mainfont: Lexend
+    css: styles.scss
     toc: true
 
 execute:
