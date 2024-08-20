@@ -2,26 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://thomas.kantiles.com/articles.html</loc>
-    <lastmod>2024-08-20T19:07:12.392Z</lastmod>
+    <lastmod>2024-08-20T19:42:59.033Z</lastmod>
   </url>
   <url>
     <loc>https://thomas.kantiles.com/index.html</loc>
-    <lastmod>2024-08-20T19:07:12.404Z</lastmod>
+    <lastmod>2024-08-20T19:42:59.045Z</lastmod>
   </url>
   <url>
-    <loc>https://thomas.kantiles.com/clients/test.html</loc>
-    <lastmod>2024-08-20T19:07:12.404Z</lastmod>
+    <loc>https://thomas.kantiles.com/articles/user2024.html</loc>
+    <lastmod>2024-08-20T19:42:59.033Z</lastmod>
+  </url>
+  <url>
+    <loc>https://thomas.kantiles.com/articles/rr_2021_gouvdown.html</loc>
+    <lastmod>2024-08-20T19:42:59.033Z</lastmod>
   </url>
   <url>
     <loc>https://thomas.kantiles.com/about.html</loc>
-    <lastmod>2024-08-20T19:07:12.392Z</lastmod>
+    <lastmod>2024-08-20T19:42:59.033Z</lastmod>
   </url>
   <url>
-    <loc>https://thomas.kantiles.com/articles/test.html</loc>
-    <lastmod>2024-08-20T19:07:12.392Z</lastmod>
+    <loc>https://thomas.kantiles.com/clients/test.html</loc>
+    <lastmod>2024-08-20T19:42:59.045Z</lastmod>
+  </url>
+  <url>
+    <loc>https://thomas.kantiles.com/articles/rr_2021_pagedown.html</loc>
+    <lastmod>2024-08-20T19:42:59.033Z</lastmod>
+  </url>
+  <url>
+    <loc>https://thomas.kantiles.com/articles/void.html</loc>
+    <lastmod>2024-08-20T19:42:59.033Z</lastmod>
   </url>
   <url>
     <loc>https://thomas.kantiles.com/clients.html</loc>
-    <lastmod>2024-08-20T19:07:12.404Z</lastmod>
+    <lastmod>2024-08-20T19:42:59.045Z</lastmod>
   </url>
 </urlset>
