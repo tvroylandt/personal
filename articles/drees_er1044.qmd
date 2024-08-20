@@ -1,0 +1,11 @@
+---
+title: "Etudes et Résultats - 1044"
+date: "2017-12-14"
+description: "7 800 étudiants en formation d�assistant de service social en 2016"
+categories: [FR, Social policy]
+image: "../assets/img/drees.png"
+---
+
+Link to [publication {{< fa link >}}](https://drees.solidarites-sante.gouv.fr/publications/etudes-et-resultats/7-800-etudiants-en-formation-dassistant-de-service-social-en-2016)
+
+{{< pdf ../assets/resources/er1044.pdf width=100% height=800 >}}

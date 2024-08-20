@@ -1,0 +1,11 @@
+---
+title: "Etudes et Résultats - 953"
+date: "2016-02-29"
+description: "Formations en travail social : 62 000 étudiants en 2014"
+categories: [FR, Social policy]
+image: "../assets/img/drees.png"
+---
+
+Link to [publication {{< fa link >}}](https://drees.solidarites-sante.gouv.fr/publications/etudes-et-resultats/formations-en-travail-social-62-000-etudiants-en-2014)
+
+{{< pdf ../assets/resources/er953.pdf width=100% height=800 >}}

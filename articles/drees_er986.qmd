@@ -1,0 +1,11 @@
+---
+title: "Etudes et Résultats - 986"
+date: "2016-12-09"
+description: "Une baisse de 7 % des étudiants inscrits en formations sociales entre 2010 et 2015"
+categories: [FR, Social policy]
+image: "../assets/img/drees.png"
+---
+
+Link to [publication {{< fa link >}}](https://drees.solidarites-sante.gouv.fr/publications/etudes-et-resultats/une-baisse-de-7-des-etudiants-inscrits-en-formations-sociales)
+
+{{< pdf ../assets/resources/er986.pdf width=100% height=800 >}}

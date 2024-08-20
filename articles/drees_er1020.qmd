@@ -1,0 +1,11 @@
+---
+title: "Etudes et Résultats - 1020"
+date: "2017-08-29"
+description: "Les assistant.e.s maternel.le.s ont gagn� en moyenne 1 108 euros en juin 2014"
+categories: [FR, Social policy]
+image: "../assets/img/drees.png"
+---
+
+Link to [publication {{< fa link >}}](https://drees.solidarites-sante.gouv.fr/publications/etudes-et-resultats/les-assistantes-maternelles-ont-gagne-en-moyenne-1-108-euros-en)
+
+{{< pdf ../assets/resources/er1020.pdf width=100% height=800 >}}

@@ -1,0 +1,11 @@
+---
+title: "Etudes et Résultats - 978"
+date: "2016-10-14"
+description: "Les assistantes maternelles gardent 8 % d'enfants de plus en 2014 qu�en 2010"
+categories: [FR, Social policy]
+image: "../assets/img/drees.png"
+---
+
+Link to [publication {{< fa link >}}](https://drees.solidarites-sante.gouv.fr/publications/etudes-et-resultats/les-assistantes-maternelles-gardent-8-denfants-de-plus-en-2014)
+
+{{< pdf ../assets/resources/er978.pdf width=100% height=800 >}}
