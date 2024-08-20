@@ -9,6 +9,7 @@ listing:
 
   contents:
     - "articles/"
+
     - path: https://pagedreport.rfortherestofus.com/
       title: "`pagedreport`"
       description: "`pagedreport` is an R package to help you make beautiful PDF-based reports from RMarkdown"
@@ -20,35 +21,35 @@ listing:
       date: "2024-07-09"
       categories: [Reports, Quarto, Templates]
 
+    - path: https://tvroylandt.github.io/rr_2024/prez_nettoyage_excel_kantiles.html#/title-slide
+      title: "Rencontres R 2024 - Cleaning data from Excel"
+      description: "This talk presents some useful ways to clean data from Excel that are oddly formatted, mainly using `tidyxl` and `unpivotr`"
+      date: "2024-06-10"
+      categories: [FR, Talks, Excel, Data cleaning]
+
+    - path: https://www.nonfiction.fr/fiche-perso-1783-thomas-vroylandt.htm
+      title: "Nonfiction"
+      description: "Nonfiction est un site de compte-rendu d'ouvrages scientifiques"
+      date: "2017-05-12"
+      categories: [FR, Compte-rendu]
+      image: "assets/img/nonfiction.png"
+    - path: https://journals.openedition.org/lectures/13204
+      title: "Lectures"
+      description: "Lectures est un site de compte-rendu d'ouvrages scientifiques"
+      date: "2015-01-01"
+      categories: [FR, Compte-rendu]
+      image: "assets/img/lectures.png"
 ---
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-
-img {
-    box-shadow: 10px 10px 10px darkgrey;
-    
-  }
-
-.portrait img {
-    box-shadow: none;
-    border-radius: 50%;
-}
 </style>
 
-Projects I was involved in.
-
-_Talks_
-
-RR2021 pagedown https://www.youtube.com/watch?v=Vk5q_pvp1EE + https://github.com/tvroylandt/pagedown_rr2021
-RR2021 gouvdown https://www.youtube.com/watch?v=18_XWzG6KdM + https://github.com/tvroylandt/gouvdown_rr_2021
-RR2024 https://github.com/tvroylandt/rr_2024
-Meetup R Addicts retour RR 2024 https://github.com/tvroylandt/rr_2024_retour
-UseR 2024 https://github.com/tvroylandt/user_2024_parametrized_reporting
+Projects I was involved in --> tout télécharger et mettre dans ressources pour conserver une trace
 
 _Blog posts_
 
-Reprendre les posts Tillac
+Reprendre les posts Tillac, en format readme sur github ? ou en standalone
 
 _Conseil - Drees_
 
@@ -187,18 +188,16 @@ _Journée d'études_
 
 Vroylandt (Th.), « Ethnographie, numérique et statistiques : les Veilleurs de la “Manif pour tous” », Journée d’études « De la constitution d’un corpus aux analyses statistiques », Paris, Université de Nanterre, 10 octobre 2016.
 
-_Comptes-rendus de publications_
-
-https://journals.openedition.org/lectures/13204
-https://www.nonfiction.fr/fiche-perso-1783-thomas-vroylandt.htm
-
 _Scoutisme_
 
 https://www.associations.gouv.fr/IMG/pdf/rapport_final_etude_fdva.pdf
 
 https://www.youtube.com/watch?v=BpW2_Gvs2Ds
+
 https://github.com/tvroylandt/sgdf_pagedown
 
 https://github.com/tvroylandt/intuthu
+
+Atelier chiffres du mouvement
 
 Autres projets publics ?

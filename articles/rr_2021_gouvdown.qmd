@@ -1,0 +1,12 @@
+---
+title: "Rencontres R 2021 - `gouvdown`"
+date: "2021-07-13"
+description: "Conference talk about `gouvdown`, R package that implement the official French design guide"
+categories: [FR, Talks, Reports, RMarkdown]
+---
+
+Video (in French):
+
+{{< video https://www.youtube.com/watch?v=18_XWzG6KdM >}}
+
+Slides [available on Github {{< fa brands github >}}](https://github.com/tvroylandt/gouvdown_rr_2021/blob/master/presentation_RR_2021_gouvdown.pdf)
