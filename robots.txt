@@ -1,1 +1,1 @@
-Sitemap: https://tvroylandt.github.io/personal/sitemap.xml
+Sitemap: https://thomas.kantiles.com/sitemap.xml
