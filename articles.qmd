@@ -62,10 +62,6 @@ listing:
 
 Projects I was involved in --> tout t�l�charger et mettre dans ressources pour conserver une trace
 
-_Blog posts_
-
-Reprendre les posts Tillac, en format readme sur github ? ou en standalone
-
 _Conseil - Drees_
 
 - Panorama statistique : https://data.drees.solidarites-sante.gouv.fr/explore/?q=PANORAMA+STATISTIQUE&sort=modified
