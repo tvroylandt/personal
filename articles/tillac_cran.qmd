@@ -1,0 +1,360 @@
+---
+title: Beyond R Packages - An History of Collaborations
+date: "2020-07-08"
+description: "Use Github Actions as an orchestrator tool to print your tweets on a table"
+categories: [Blog]
+image: ""
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = FALSE,
+  message = FALSE,
+  warning = FALSE,
+  error = FALSE
+)
+```
+
+```{r import}
+# packages
+library(tidyverse)
+library(reactable)
+library(tidygraph)
+library(ggraph)
+
+# import
+df_cran_pkg_infos <- read_rds("data/cran_pkg_infos.rds")
+df_cran_pkg_authors <- read_rds("data/cran_pkg_authors.rds")
+df_cran_pkg_deps <- read_rds("data/cran_pkg_deps.rds")
+df_cran_pkg_logs <- read_rds("data/cran_pkg_logs.rds")
+
+# base pkgs
+base_r_pkgs <- c(
+  "base",
+  "boot",
+  "class",
+  "cluster",
+  "codetools",
+  "compiler",
+  "datasets",
+  "foreign",
+  "graphics",
+  "grDevices",
+  "grid",
+  "KernSmooth",
+  "lattice",
+  "MASS",
+  "Matrix",
+  "methods",
+  "mgcv",
+  "nlme",
+  "nnet",
+  "parallel",
+  "rpart",
+  "spatial",
+  "splines",
+  "stats",
+  "stats4",
+  "survival",
+  "tcltk",
+  "tools",
+  "utils"
+)
+
+# organization
+r_core_team <- c(
+  "Douglas Bates",
+  "John Chambers",
+  "Peter Dalgaard",
+  "Robert Gentleman",
+  "Kurt Hornik",
+  "Ross Ihaka",
+  "Tomas Kalibera",
+  "Michael Lawrence",
+  "Friedrich Leisch",
+  "Uwe Ligges",
+  "Thomas Lumley",
+  "Martin Maechler",
+  "Martin Morgan",
+  "Paul Murrell",
+  "Martyn Plummer",
+  "Brian Ripley",
+  "Deepayan Sarkar",
+  "Duncan Temple Lang",
+  "Luke Tierney",
+  "Simon Urbanek",
+  "Heiner Schwarte",
+  "Guido Masarotto",
+  "Stefano Iacus",
+  "Seth Falcon",
+  "Duncan Murdoch",
+  "R Core Team"
+)
+
+rstudio_employees <- read_rds("data/rstudio_employees.rds")$name
+```
+
+For all R users, CRAN is the place were you can find most of the packages you need to run code. Last month, I saw this Xkcd drawing :
+
+![](https://imgs.xkcd.com/comics/dependency.png)
+
+And this remind me of something : behind packages, you can find people. And this people are at the heart of all your analytics pipelines because they build, maintain and develop R packages. It's their ideas and their work, discussion and collaborations that made R as it is. One example of it is the [fantastic story of the pipe](http://adolfoalvarez.cl/plumbers-chains-and-famous-painters-the-history-of-the-pipe-operator-in-r/) (`%>%`) by Adolfo Alvarez.
+
+Let's talk a bit about this people and their packages !
+
+## Which packages are we talking about ?
+
+Not all packages on CRAN are equal. They are all useful and all needed a big bunch of work. But some are more useful than others, also because they are more general.
+
+I try to appreciate it by comparing two things :
+
++ how much the package has been downloaded ?
++ how many packages use the package as a dependency ?
+
+For the first one, I used `{cranlogs}`, a package which show the download statistics for the RStudio CRAN mirror, from 2013 to now. It's not all the CRAN downloads but it's a nice part of them. We choose to compute the median download by month for each package, since it's first appearance (so for months with more than 0 download). I did so since we got some strange stats for packages like `{tidyverse}` with an incredible amount of downloads in november 2018 or a big amount of downloads for `{aws.s3}` over the last year that I couldn't understand.
+
+For the dependency count, I used some centrality measures from graph network theory. What is important to me is to know how much times the package is listed as a dependency (so in-degree centrality), how many dependency it has (out-degree centrality) and if the package is "important" in the global network of the dependency graph. For this last measure, I used PageRank centrality, the same algorithm as Google.
+
+With all of that, we get the following table with all the packages on CRAN, ranked by PageRank centrality :
+
+```{r main_pkgs}
+# median download
+df_pkg_download <- df_cran_pkg_logs %>%
+  filter(nb_download > 0) %>%
+  group_by(package) %>%
+  summarise(median_download = median(nb_download),
+            min_year = min(year)) %>%
+  ungroup() %>%
+  mutate(min_year = if_else(min_year == 2013, "2013 of before", as.character(min_year)))
+
+# centrality
+df_pkg_centrality <- df_cran_pkg_deps %>%
+  filter(pkg_dep != "R" &
+           type_dep %in% c("depends", "imports", "linking_to")) %>%
+  distinct(package, pkg_dep) %>%
+  rename(from = package,
+         to = pkg_dep) %>%
+  as_tbl_graph(directed = TRUE) %>%
+  activate(nodes) %>%
+  mutate(
+    c_degree_out = centrality_degree(mode = "out"),
+    c_degree_in = centrality_degree(mode = "in"),
+    c_pagerank = centrality_pagerank(directed = TRUE)
+  ) %>%
+  as_tibble()
+
+# adding variables
+df_pkg_full <- df_cran_pkg_infos %>%
+  left_join(df_pkg_download, by = c("package")) %>%
+  left_join(df_pkg_centrality, by = c("package" = "name")) %>%
+  mutate(is_base = if_else(package %in% base_r_pkgs, "Yes", "No")) %>%
+  select(
+    package,
+    title,
+    is_base,
+    min_year,
+    median_download,
+    c_degree_in,
+    c_degree_out,
+    c_pagerank
+  ) %>%
+  replace_na(list(
+    median_download = 0,
+    c_degree_in = 0,
+    c_degree_out = 0,
+    c_pagerank = 0
+  ))
+
+# table
+df_pkg_full %>%
+  arrange(desc(c_pagerank)) %>%
+  reactable(
+    columns = list(
+      package = colDef("Package", filterable = TRUE),
+      title = colDef("Title", minWidth = 180, filterable = TRUE),
+      is_base = colDef("Base pkg", filterable = TRUE),
+      min_year = colDef("Year", filterable = TRUE),
+      median_download = colDef(
+        "Median download by month",
+        format = colFormat(
+          locales = "fr-FR",
+          separators = TRUE,
+          digits = 0
+        ),
+        sortable = TRUE
+      ),
+      c_degree_in = colDef(
+        "In-degree centrality (# the pkg is a dependency",
+        format = colFormat(locales = "fr-FR", separators = TRUE),
+        sortable = TRUE
+      ),
+      c_degree_out = colDef(
+        "Out-degree centrality (# of dependencies)",
+        format = colFormat(locales = "fr-FR", separators = TRUE),
+        sortable = TRUE
+      ),
+      c_pagerank = colDef(
+        "PageRank centrality",
+        format = colFormat(
+          locales = "fr-FR",
+          separators = TRUE,
+          digits = 4
+        ),
+        sortable = TRUE
+      )
+    ),
+    defaultPageSize = 15
+  )
+```
+
+I gathered the main infos in a graph, crossing centrality (in-degree) and popularity (downloads). I annotate some main areas :
+
++ on the right of the graph, a lot of packages, very popular like `{dplyr}` or `{ggplot2}` (the whole `{tidyverse}` collection in fact) or `{httr}`. This packages are direct downloads from the people. They are widely-used. A lot of packages depends of them.
+
++ on the top-left, some more unknown packages to neophytes like `{ellipsis}`, `{vctrs}`, `{pillar}`, etc. This packages have a lot of downloads but are only listed as a dependency by a few but very important packages. In fact they are more "infrastructure" packages. They are the foundations of some more-used packages and they hide the more low-level functions. So we can guess that the downloads are not direct downloads but come from the download of other packages.
+
++ some other packages, in the middle between the two above categories, like `{rlang}` or `{Rcpp}` could be the most important R packages. We should also notice that they have a 0 out-degree centrality, so they depends on zero other package (they are root packages).
+
+```{r central_pkgs, fig.width = 10}
+# graph
+df_pkg_full %>%
+  filter(c_degree_in > 0 &
+           median_download > 0 & is_base == "No") %>%
+  ggplot(aes(
+    x = c_degree_in,
+    y = median_download ,
+    size = c_pagerank,
+    color = c_degree_out
+  )) +
+  annotate(
+    geom = "rect",
+    xmin = 220,
+    xmax = 2200,
+    ymin = 0,
+    ymax = 310000,
+    alpha = 0.1,
+    fill = "#741336"
+  ) +
+  annotate(
+    geom = "rect",
+    xmin = -50,
+    xmax = 180,
+    ymin = 230000,
+    ymax = 900000,
+    alpha = 0.1,
+    fill = "#133674"
+  ) +
+  geom_point(
+    data = . %>%
+      filter(!c_degree_in > 210 &
+               !median_download > 200000),
+    alpha = 0.5,
+    color = "#c8c8c8"
+  ) +
+  ggrepel::geom_text_repel(data = . %>%
+                             filter(c_degree_in > 210 |
+                                      median_download > 200000),
+                           aes(label = package)) +
+  scale_x_continuous("In-degree centrality (# of times the pkg is a dependency)") +
+  scale_y_continuous("Median download by month") +
+  scale_size_continuous(range = c(1, 12)) +
+  scale_color_gradient(name = "", low = "#a2a2a2", high = "#741336") +
+  guides(size = FALSE) +
+  theme_minimal()
+```
+
+## And the authors ?
+
+```{r pkg_authors_count}
+# authors count
+df_authors_count <- df_cran_pkg_authors %>% 
+  filter(role %in% c("aut", "cre") | is.na(role)) %>% 
+  distinct(package, authors) %>% 
+  left_join(df_pkg_full, by = "package") %>% 
+  filter(c_degree_in > 210 | median_download > 200000) %>% 
+  group_by(package) %>% 
+  count(name = "nb_authors") %>% 
+  ungroup()
+
+# share of multi authors
+nb_multi_authors <- df_authors_count %>% 
+  group_by(nb_authors) %>% 
+  count() %>% 
+  ungroup() %>% 
+  mutate(share = scales::percent(1  - (n /sum(n)), accuracy = 1)) %>% 
+  filter(nb_authors == 1) %>% 
+  pull(share)
+```
+
+Talking about packages is nice. But behind them lies people. And a lot of people. For the top packages shown before, `r nb_multi_authors` of them are multi-authors packages (I counted all roles like authors or creator). And some have a lot of contributors, like the `{ape}` package. Some heterogeneity in role declarations could make it difficult to compare across packages.
+
+R packages are a matter of collaborations since a lot of packages are multi-authored. They are built on top of some collaborations. And we could link the people together based on the package they worked on. As an example, here is the graph for all the people that participated in the "main" packages cited above.
+
+```{r network_authors}
+# filter roles
+df_cran_pkg_authors_contrib <- df_cran_pkg_authors %>%
+  filter(role %in% c("aut", "cre") | is.na(role)) %>% 
+  distinct(authors, package)
+
+# edge_list
+df_edge_list_authors <- df_cran_pkg_authors_contrib %>%
+  left_join(df_cran_pkg_authors_contrib, by = "package") %>%
+  filter(authors.x != authors.y) %>%
+  rowwise() %>%
+  mutate(key = paste(sort(c_across()), collapse = "")) %>%
+  distinct(key, .keep_all = TRUE) %>%
+  select(-key) %>% 
+  group_by(authors.x, authors.y) %>%
+  count(name = "nb_collab") %>%
+  ungroup() %>%
+  as_tbl_graph(directed = FALSE) %>%
+  activate(nodes) %>%
+  mutate(c_degree = centrality_degree(),
+         c_pagerank = centrality_pagerank(weights = nb_collab)) %>%
+  left_join(
+    df_cran_pkg_authors %>%
+      filter(role %in% c("aut", "cre") | is.na(role)) %>%
+      distinct(package, authors) %>%
+      group_by(authors) %>%
+      count(name = "nb_pkgs") %>%
+      ungroup(),
+    by = c("name" = "authors")
+  )
+```
+
+```{r collab_authors_graph, fig.height=6, fig.width = 10}
+# filter
+list_authors_top_pkg <- df_pkg_full %>%
+  filter((c_degree_in > 210 | median_download > 200000)) %>%
+  left_join(df_cran_pkg_authors, by = "package") %>%
+  filter(role %in% c("aut", "cre") | is.na(role)) %>%
+  distinct(authors) %>%
+  pull(authors)
+
+# graph
+plot <- df_edge_list_authors %>%
+  mutate(orga = case_when(name %in% r_core_team ~ "R Core Team",
+                          name %in% rstudio_employees ~ "RStudio",
+                          TRUE ~ "Other")) %>% 
+  filter(name %in% list_authors_top_pkg) %>%
+  ggraph(layout = "nicely") +
+  geom_edge_fan(aes(alpha = nb_collab), show.legend = FALSE) +
+  ggiraph::geom_point_interactive(aes(x, y, 
+    size = nb_pkgs,
+    color = orga,
+    tooltip = name
+  )) +
+  scale_color_manual(name = "",
+                     values = c("#741336", "#133674", "#367413", "#ffd700")) +
+  scale_size_continuous(range = c(1.5, 7)) +
+  guides(size = FALSE) +
+  theme_graph()
+
+ggiraph::girafe(ggobj = plot) 
+```
+
+The impression here is that the network is deeply interconnected ! I highlighted some groups who work a lot together, like RStudio employees or the R Core Team. But they are not isolated one from another. In fact they are links between.
+
+## To conclude
+
+What can we learn from this little work ? First, collaboration is important in the R World ! People are designing packages together.

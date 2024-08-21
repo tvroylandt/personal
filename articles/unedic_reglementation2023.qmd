@@ -1,0 +1,15 @@
+---
+title: "Unédic - Réglementation 2023"
+date: "2024-02-23"
+description: "Suivi et effets de la réglementation d’assurance chômage"
+categories: [FR, Unemployment policy]
+image: "../assets/img/unedic.png"
+---
+
+Link to [publication {{< fa link >}}](https://www.unedic.org/publications/effets-de-ladaptation-des-regles-dassurance-chomage-la-conjoncture)
+
+{{< pdf ../assets/resources/unedic_reglementation_2023.pdf width=100% height=800 >}}
+
+Link to [publication {{< fa link >}}](https://www.unedic.org/publications/suivi-et-effets-de-la-reglementation-d-assurance-chomage-en-2023)
+
+{{< pdf ../assets/resources/unedic_reglementation_2023_analyse.pdf width=100% height=800 >}}

@@ -1,7 +1,7 @@
 ---
 title: "Etudes et Résultats - 1044"
 date: "2017-12-14"
-description: "7 800 étudiants en formation d�assistant de service social en 2016"
+description: "7 800 étudiants en formation d'assistant de service social en 2016"
 categories: [FR, Social policy]
 image: "../assets/img/drees.png"
 ---

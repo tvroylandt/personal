@@ -1,0 +1,15 @@
+---
+title: "Unédic - Chômage et minima sociaux"
+date: "2024-02-29"
+description: "Comment s'articulent chômage, prime d'activité et RSA ?"
+categories: [FR, Unemployment policy, Social policy]
+image: "../assets/img/unedic.png"
+---
+
+Link to [publication {{< fa link >}}](https://www.unedic.org/publications/assurance-chomage-et-minima-sociaux-panorama-des-dispositifs)
+
+{{< pdf ../assets/resources/unedic_chomage_minima_1.pdf width=100% height=800 >}}
+
+Link to [publication {{< fa link >}}](https://www.unedic.org/publications/comment-s-articulent-chomage-prime-d-activite-et-rsa)
+
+{{< pdf ../assets/resources/unedic_chomage_minima_3.pdf width=100% height=800 >}}

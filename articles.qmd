@@ -5,7 +5,8 @@ listing:
   categories: true
   sort: "date desc"
   type: grid
-  page-size: 9
+  image-height: 130px
+  page-size: 18
 
   contents:
     - "articles/"
@@ -26,18 +27,32 @@ listing:
       description: "This talk presents some useful ways to clean data from Excel that are oddly formatted, mainly using `tidyxl` and `unpivotr`"
       date: "2024-06-10"
       categories: [FR, Talks, Excel, Data cleaning]
+      image: "assets/img/rr2024.png"
+
+    - path: https://www.cairn.info/revue-participations-2017-3-page-49.htm
+      title: "Cairn - Participations"
+      description: "D'une rive Ã  l'autre du scoutisme : des aventures buissonniÃ¨res Ã  l'apprentissage de la citoyennetÃ©"
+      date: "2017-09-01"
+      categories: [FR, Scout, Sociology]
+      image: "assets/img/cairn.png"
+    - path: https://www.cairn.info/revue-savoir-agir-2015-3-page-103.htm
+      title: "Cairn - Savoir/Agir"
+      description: "Politique de la ville. Que nous rÃ©vÃ¨le la qualitï¿½ de vie ?"
+      date: "2015-09-01"
+      categories: [FR, Sociology]
+      image: "assets/img/cairn.png"
 
     - path: https://www.nonfiction.fr/fiche-perso-1783-thomas-vroylandt.htm
       title: "Nonfiction"
       description: "Nonfiction est un site de compte-rendu d'ouvrages scientifiques"
       date: "2017-05-12"
-      categories: [FR, Compte-rendu]
+      categories: [FR, Compte-rendu, Sociology]
       image: "assets/img/nonfiction.png"
     - path: https://journals.openedition.org/lectures/13204
       title: "Lectures"
       description: "Lectures est un site de compte-rendu d'ouvrages scientifiques"
       date: "2015-01-01"
-      categories: [FR, Compte-rendu]
+      categories: [FR, Compte-rendu, Sociology]
       image: "assets/img/lectures.png"
 ---
 
@@ -45,7 +60,7 @@ listing:
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 </style>
 
-Projects I was involved in --> tout télécharger et mettre dans ressources pour conserver une trace
+Projects I was involved in --> tout tï¿½lï¿½charger et mettre dans ressources pour conserver une trace
 
 _Blog posts_
 
@@ -119,28 +134,13 @@ https://github.com/tvroylandt/r-graph?tab=readme-ov-file
 
 Pagedown course
 
-_Unédic_
-
-https://www.unedic.org/publications/comprendre-le-sous-emploi
-
-https://www.unedic.org/publications/effets-de-ladaptation-des-regles-dassurance-chomage-la-conjoncture
-
-https://www.unedic.org/publications/suivi-et-effets-de-la-reglementation-d-assurance-chomage-en-2023
-
-https://www.unedic.org/publications/suivi-de-la-reglementation-2021-d-assurance-chomage
-
-https://www.unedic.org/publications/assurance-chomage-et-minima-sociaux-panorama-des-dispositifs
-
-https://www.unedic.org/publications/comment-s-articulent-chomage-prime-d-activite-et-rsa
-
-
-_Pôle emploi_
+_Pï¿½le emploi_
 
 Tensions : https://dares.travail-emploi.gouv.fr/publications/les-tensions-sur-le-marche-du-travail-en-2019
 
 VPPEC Sport : https://www.strategie.gouv.fr/sites/strategie.gouv.fr/files/atoms/files/fs-2019-rapport-vppec-sport-fevrier-2019.pdf
 
-Compétences : https://statistiques.francetravail.org/offres/offrespub/201566
+Compï¿½tences : https://statistiques.francetravail.org/offres/offrespub/201566
 
 BMO : https://statistiques.francetravail.org/bmo/bmopub/209090
 
@@ -156,20 +156,14 @@ https://statistiques.francetravail.org/offres/offrespub/207732
 
 https://statistiques.francetravail.org/offres/offrespub/199728
 
-Intérim : https://www.francetravail.org/files/live/sites/peorg/files/documents/Statistiques-et-analyses/S%26I/si_19.014_interim_2019janv.pdf
+Intï¿½rim : https://www.francetravail.org/files/live/sites/peorg/files/documents/Statistiques-et-analyses/S%26I/si_19.014_interim_2019janv.pdf
 
-Métiers : https://www.francetravail.org/statistiques-analyses/entreprises/metiers/tableau-de-la-filiere-maritime-et-fluviale-en-france.html?type=article
+Mï¿½tiers : https://www.francetravail.org/statistiques-analyses/entreprises/metiers/tableau-de-la-filiere-maritime-et-fluviale-en-france.html?type=article
 
 
-_Articles_
+_Journï¿½e d'ï¿½tudes_
 
-https://www.cairn.info/revue-savoir-agir-2015-3-page-103.htm
-
-https://www.cairn.info/revue-participations-2017-3-page-49.htm
-
-_Journée d'études_
-
-Vroylandt (Th.), « Ethnographie, numérique et statistiques : les Veilleurs de la “Manif pour tous” », Journée d’études « De la constitution d’un corpus aux analyses statistiques », Paris, Université de Nanterre, 10 octobre 2016.
+Vroylandt (Th.), ï¿½ Ethnographie, numï¿½rique et statistiques : les Veilleurs de la ï¿½Manif pour tousï¿½ ï¿½, Journï¿½e dï¿½ï¿½tudes ï¿½ De la constitution dï¿½un corpus aux analyses statistiques ï¿½, Paris, Universitï¿½ de Nanterre, 10 octobre 2016.
 
 _Scoutisme_
 

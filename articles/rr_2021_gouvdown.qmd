@@ -3,6 +3,7 @@ title: "Rencontres R 2021 - `gouvdown`"
 date: "2021-07-13"
 description: "Conference talk about `gouvdown`, R package that implement the official French design guide"
 categories: [FR, Talks, Reports, RMarkdown]
+image: "../assets/img/rr2021.png"
 ---
 
 Video (in French):

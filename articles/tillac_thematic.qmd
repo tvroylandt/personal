@@ -1,0 +1,405 @@
+---
+title: Search your tweets with an automatic pipeline
+date: "2020-07-08"
+description: "Use Github Actions as an orchestrator tool to print your tweets on a table"
+categories: [Blog]
+image: ""
+---
+---
+title: "Fast Rmarkdown Theming with `thematic` and `bootstraplib`"
+author: "Thomas Vroylandt"
+date: "05/06/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = FALSE,
+  error = FALSE,
+  message = FALSE,
+  warning = FALSE,
+  fig.showtext = TRUE
+)
+```
+
+```{r}
+library(DiagrammeR)
+library(here)
+library(knitr)
+library(tidyverse)
+library(kableExtra)
+```
+
+Theming in Rmarkdown can be hard. You first made some custom CSS or use a provided theme but your figures didn't change and you have to style your `ggplot2` theme. And after it you change your mind (or your boss do) and you need to move this color shade to lighter one. So you change your theme, but forgot to change it in all your CSS and something is going wrong. Same goes for fonts...
+
+Sounds familiar ? Theming is a common problem, because it involves lot of differents elements which aren't ruled by the same command. Your process look like this.
+
+<center>
+```{r, fig.height=2}
+grViz("
+digraph {
+
+  graph [overlap = true, fontsize = 10, rankdir = LR]
+
+  node [shape = oval,
+        fontname = Lato,
+        color = '#000000',
+        fontcolor = '#000000']
+    rmd [label = 'RMarkdown']
+    ggplot [label = 'gglot2 theme']
+    css [label = 'Custom CSS']
+    output [label = 'Output document']
+
+  edge [arrowhead = vee,
+        arrowsize = 0.5,
+        color = '#000000']
+    rmd -> {ggplot css}
+    {ggplot css} -> output
+  }
+      ")
+```
+</center>
+
+Thanks to the new `thematic` package (https://github.com/rstudio/thematic) and the `bootstraplib` package (https://github.com/rstudio/bootstraplib), you can fastly build themes for your documents without the problems mentioned above.
+
+## Style your graph theme with `thematic`
+
+<center>
+```{r, fig.height=2, fig.align='center'}
+grViz("
+digraph {
+
+  graph [overlap = true, fontsize = 10, rankdir = LR]
+
+  node [shape = oval,
+        fontname = Lato,
+        color = '#000000',
+        fontcolor = '#000000']
+    rmd [label = 'RMarkdown']
+    thematic [label = 'thematic rules', 
+              color = '#741336', 
+              fontcolor = '#741336',
+              penwidth = 2.5]
+    css [label = 'Custom CSS']
+    output [label = 'Output document']
+
+  edge [arrowhead = vee,
+        arrowsize = 0.5,
+        color = '#000000']
+    rmd -> css
+    rmd -> thematic [color = '#741336']
+    thematic -> output [color = '#741336']
+    css -> output
+  }
+      ")
+```
+</center>
+
+You can style six differents elements :
+
++ `bg` : the background color, here <b style="background-color:#F4F4E2">#F4F4E2</b> ;
++ `fg` : the foreground color, here <b style="background-color:#4c4c4c;color:white">#4c4c4c</b> ;
++ `accent` : the accent color, here <b style="background-color:#741336;color:white">#741336</b>. It will also be used to create a sequential palette ;
++ `font` : the font you want to use, here <b style="font-family:'Special Elite'">Special Elite</b>. You can go further by using `font_spec()` ;
++ `qualitative` : the qualitative palette you want to use ;
++ `sequential` : the sequential palette, which can be controlled using `sequential_gradient()`. By default, it creates a palette from a mix between your background color and your accent color to a mix between your foreground color and your accent color.
+
+You just have to use `thematic_on()` with your parameters to use it.
+
+```{r, echo = TRUE}
+library(thematic)
+library(ggplot2)
+library(tibble)
+
+thematic_on(
+  bg = "#F4F4E2",
+  fg = "#4c4c4c",
+  accent = "#741336",
+  font = font_spec("Special Elite", scale = 0.5),
+  qualitative = paletteer::paletteer_d("dutchmasters::milkmaid"),
+  sequential = sequential_gradient(0.5, 0.75)
+)
+```
+
+After that, just make a normal plot like you are used to.
+
+```{r, echo = TRUE, fig.align='center'}
+ggplot(tibble(mtcars,
+              model = rownames(mtcars)),
+       aes(x = model, y = mpg, fill = disp)) +
+  geom_col() +
+  geom_text(aes(label = disp), 
+            position = position_stack(vjust = 1.1)) +
+  coord_flip() +
+  labs(title = "A barplot with mtcars",
+       caption = "Source : mtcars data")
+```
+
+You can add a theme to your graph but will need some further coding. But you need to know that the last element overlap your styling. Because complete themes have fonts and/or colors, they may replace your styling. If you want to keep your theme, you have to set it before to call `thematic_on()` through a `theme_set(theme_minimal())` as an example (see https://github.com/rstudio/thematic/issues/16).
+
+```{r, echo = TRUE, fig.align='center'}
+ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width, color =  Species)) +
+  geom_point(size = 1.1) +
+  geom_smooth() +
+  labs(title = "A nice scatterplot for iris",
+       caption = "Source : Iris data") +
+  theme_minimal(base_family = thematic_get_option("font")$families,
+                base_size = thematic_get_option("font")$scale * 11,
+                base_line_size = 1.1)
+```
+
+```{r}
+thematic_off()
+```
+
+`thematic` may work with interactive graph packages like `plotly` or `ggiraph` if you use some special feature (see  https://github.com/rstudio/shiny/pull/2740 and https://github.com/rstudio/thematic/blob/8ed47c589dd4cb611823a958b46f3ed029685bcf/vignettes/Shiny.Rmd#L69)
+
+## Use `bootstraplib` for Rmarkdown theming
+
+<center>
+```{r, fig.height=2, fig.align='center'}
+grViz("
+digraph {
+
+  graph [overlap = true, fontsize = 10, rankdir = LR]
+
+  node [shape = oval,
+        fontname = Lato,
+        color = '#000000',
+        fontcolor = '#000000']
+    rmd [label = 'RMarkdown']
+    ggplot [label = 'gglot2 theme']
+    bootstraplib [label = 'bootstraplib', 
+                  color = '#741336', 
+                  fontcolor = '#741336',
+                  penwidth = 2.5]
+    output [label = 'Output document']
+
+  edge [arrowhead = vee,
+        arrowsize = 0.5,
+        color = '#000000']
+    rmd -> ggplot 
+    rmd -> bootstraplib [color = '#741336']
+    bootstraplib -> output [color = '#741336']
+    ggplot -> output
+  }
+      ")
+```
+</center>
+
+It calls Bootstrap and allow you to style directly your document (RMarkdown or Shiny) from R using Sass. You can do a lot with this package. But we will only cover some part of it.
+
+First you need to reference the use of Bootstrap in the YAML header of your Rmd.
+
+```{r, eval = FALSE, echo = TRUE}
+---
+output:
+  html_document:
+    bootstrap_version: 4+3
+---
+```
+
+After that you can use some functions to style your main elements :
+
++ `bs_theme_base_colors()` allows you to set you background (with `bg`) and foreground (with `fg`) colors ;
++ `bs_theme_accent_colors()` for the accent colors ;
++ `bs_theme_fonts()` for the fonts.
+
+You can also add some hand-made rules with `bs_theme_add_variables()`. As an example `bs_theme_add_variables("font-size-base" = "0.9rem")` will style the size of your fonts.
+
+If you want to use Google Fonts, you may need the `gfonts` package, made by dreamRs (https://github.com/dreamRs/gfonts). It offers simple functions to deal with Google Fonts.
+
+As an example, here is the code chunk which creates the document just below.
+
+```{r, eval=FALSE, echo = TRUE}
+# bootstraplib part
+library(bootstraplib)
+library(gfonts)
+
+# setup and use font
+# the setup has to be done once
+setup_font("special-elite", "www/")
+use_font("special-elite", "www/css/special-elite.css")
+
+bs_theme_fonts(base = "Special Elite")
+
+# font-size
+bs_theme_add_variables("font-size-base" = "0.9rem")
+
+# colors
+bs_theme_base_colors(bg = "#F4F4E2",
+                     fg = "#4c4c4c")
+
+bs_theme_accent_colors(primary = "#741336")
+```
+
+<iframe 
+  width = "100%"
+  height= 500px
+  src ="https://tillac.github.io/fast_rmd_theming/examples/bootstraplib_gfonts.html">
+</iframe>
+
+You need to keep in mind two things, when using `bootstraplib` for R Markdown :
+
++ The package doesn't work yet with `xaringan` and `pagedown` for the moment, because they are not made with Bootstrap, and strangely with `flexdashboard`. However you can use the excellent `xaringanthemer` for your presentation (https://github.com/gadenbuie/xaringanthemer).
+
++ You will need to style your table manually. For the moment, only `kable` works well. This comes from the tables packages CSS behavior. The other packages I tested all failed on one part :
+
+  + `gt` has the font family only ;
+  + `reactable` has the font size, family and color ;
+  + `flextable` has the right background color but not the font size/family/color.
+
+## Forging a theme with both packages
+
+<center>
+```{r, fig.height=1.5, fig.width = 8, fig.align='center'}
+grViz("
+digraph {
+
+  graph [overlap = true, fontsize = 10, rankdir = LR]
+
+  node [shape = oval,
+        fontname = Lato,
+        color = '#000000',
+        fontcolor = '#000000']
+    rmd [label = 'RMarkdown']
+    thematic [label = 'thematic rules', 
+              color = '#741336', 
+              fontcolor = '#741336',
+              penwidth = 2.5]
+    bootstraplib [label = 'bootstraplib', 
+                  color = '#741336', 
+                  fontcolor = '#741336',
+                  penwidth = 2.5]
+    output [label = 'Output document']
+
+  edge [arrowhead = vee,
+        arrowsize = 0.5,
+        color = '#741336']
+    rmd -> bootstraplib -> thematic -> output
+  }
+      ")
+```
+</center>
+
+If you use `thematic` after `bootstraplib` in a Rmarkdown document (it's also true for Shiny), it will retrieve the styling you passed and use them. That's a very powerful feature because you will only need to style your document once.
+
+The only thing you need to care about is the font. You have to set it to `auto` inside `thematic_on()` to get it nicely.
+
+Here are the corresponding functions between the two packages :
+
+```{r}
+tibble(
+  name = c(
+    "Background color",
+    "Foreground color",
+    "Accent color",
+    "Font family",
+    "Font size",
+    "Sequential palette",
+    "Qualitative palette"
+  ),
+  thematic = c(
+    "`bg`",
+    "`fg`",
+    "`accent`",
+    "`font`",
+    "`font_spec(scale = )`",
+    "`sequential`",
+    "`qualitative`"
+  ),
+  bootstraplib = c(
+    "`bs_theme_base_colors(bg = )`",
+    "`bs_theme_base_colors(fg = )`",
+    "`bs_theme_accent_colors(primary = )`",
+    "`bs_theme_fonts(base = )`",
+    "`bs_theme_add_variables('font-size-base' = )`",
+    "",
+    ""
+  ),
+  both = c(
+    "auto",
+    "auto",
+    "auto",
+    "`font_spec('auto')`",
+    "`font_spec('auto', scale = )`",
+    "auto",
+    ""
+  ),
+  info = c(
+    "",
+    "",
+    "",
+    "May need `gfonts`",
+    "",
+    "Calculated from background, foreground and accent color",
+    "Manual"
+  )
+) %>%
+  kable(
+    "html",
+    col.names = c(
+      "Feature",
+      "Using `thematic`",
+      "Using `bootstraplib`",
+      "Using both",
+      "Additional infos"
+    )
+  ) %>%
+  kable_styling()
+```
+
+As an example, if you use both packages together.
+
+```{r, eval=FALSE, echo = TRUE}
+# bootstraplib part
+library(bootstraplib)
+library(gfonts)
+library(thematic)
+
+# setup and use fonts - google fonts
+# the setup has to be done once
+setup_font("special-elite", "www/")
+use_font("special-elite", "www/css/special-elite.css")
+bs_theme_fonts(base = "Special Elite")
+
+# font-size
+bs_theme_add_variables("font-size-base" = "0.9rem")
+
+# colors
+bs_theme_base_colors(bg = "#F4F4E2",
+                     fg = "#4c4c4c")
+
+bs_theme_accent_colors(primary = "#741336")
+
+# thematic part
+thematic_on(font = font_spec("auto", scale = 0.5))
+```
+
+<iframe 
+  width = "100%"
+  height= 500px
+  src ="https://tillac.github.io/fast_rmd_theming/examples/bootstraplib_thematic.html">
+</iframe>
+
+## Conclusion
+
+This two packages don't do everything but it's a good step if you don't want to spend a lot of time styling your RMarkdown document. It could also be a first step to more personalized styling as you can export it.
+
+I really like the "control tower" approach. It doesn't force you to repeat your styling and makes it really easier to change the style.
+
+## Some ressources to go further
+
+To learn more about `thematic`, the website present a series of good vignettes. You can also have a look at a presentation made by Carson Sievert, one of the package's author :
+
++ https://rstudio.github.io/thematic/ ;
++ https://bit.ly/thematic-talk.
+
+If you want to learn more about `bootstraplib`, I can recommand you the website and the talks of Joe Cheng at the last rstudio::conf.
+
++ https://rstudio.github.io/bootstraplib/ ;
++ https://resources.rstudio.com/rstudio-conf-2020/styling-shiny-apps-with-sass-and-bootstrap-4-joe-cheng?prevItm=0&prevCol=6275649&ts=6836.
+
+## Acknowledgements
+
+I would like to thank [Christophe Dervieux](https://twitter.com/chrisderv) and [Romain Lesur](https://twitter.com/rlesur) for their big help with this articles.
