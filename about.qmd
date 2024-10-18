@@ -16,7 +16,7 @@ img {
 }
 </style>
 
-Quick summary about myself. Please reach out of find my LinkedIn profile or articles section to know more.
+Quick summary about myself. Please reach out of find my [LinkedIn profile](https://www.linkedin.com/in/thomas-vroylandt-9a2334190/?originalSubdomain=fr) or [articles section](articles.qmd) to know more.
 
 ## Professional experiences
 

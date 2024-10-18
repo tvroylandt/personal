@@ -54,123 +54,25 @@ listing:
       date: "2015-01-01"
       categories: [FR, Compte-rendu, Sociology]
       image: "assets/img/lectures.png"
+
+    - path: https://drees.solidarites-sante.gouv.fr/240528_DATA_ISD
+      title: "ISD"
+      description: "Les Indicateurs Sociaux Départementaux (ISD) servent au suivi locale des politiques sociales"
+      date: "2024-05-28"
+      categories: [FR, Social policy]
+      image: "assets/img/drees.png"
+    - path: https://data.drees.solidarites-sante.gouv.fr/explore/?q=PANORAMA+STATISTIQUE&sort=modified
+      title: "Panorama statistique"
+      description: "Le Panorama statistique de la Drees offre une vision complète des politiques sociales à l'échelle locale"
+      date: "2024-07-01"
+      categories: [FR, Social policy]
+      image: "assets/img/drees.png"
+
+    - path: XXX
+      title: "Ethnographie, numérique et statistiques : les Veilleurs de la 'Manif pour tous', Journée d'études - De la constitution d'un corpus aux analyses statistiques"
+      description: "Journée d'études dans le cadre de la recherche menée sous la direction de Marie Balas (Unistra)"
+      date: "2016-10-10"
+      categories: [FR, Sociology]
+      image: "assets/img/unistra.png"
+
 ---
-
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-</style>
-
-Projects I was involved in --> tout t�l�charger et mettre dans ressources pour conserver une trace
-
-_Conseil - Drees_
-
-- Panorama statistique : https://data.drees.solidarites-sante.gouv.fr/explore/?q=PANORAMA+STATISTIQUE&sort=modified
-
-- ISD : https://drees.solidarites-sante.gouv.fr/240528_DATA_ISD
-
-_Conseil - R for the Rest of Us_ --> en marquer certains en draft ?
-
-CT data : https://www.ctdata.org/blog/2020-psc-housing-data-profiles + https://housingprofiles.pschousing.org/
-
-IA2030 : https://publichealth.jhu.edu/ivac/2024/new-ia2030-country-profiles-to-track-immunization-achievements /+ https://scorecard.immunizationagenda2030.org/pdfs/afg.pdf
-
-OHDC Farmworker Assessment Needs : https://www.ohdc.org/uploads/1/1/2/4/11243168/ohdc_farmworker_needs_assessment_2022.pdf
-
-Oregon by the Numbers : https://www.tfff.org/oregon-numbers/
-
-Oregon Voices : https://www.orvoices.org/your-county/
-
-OMNI : https://github.com/rfortherestofus/omni
-
-ORS Impact : https://funderscommittee.org/2020censusstatereports/
-
-IVAC Pneumonia : https://publichealth.jhu.edu/ivac/resources/pneumonia-diarrhea-progress-reports
-
-CBEM Judi's House : https://judishouse.org/research-tools/cbem/cbem-key-topics/cbem-race-ethnicity/cbem-race-ethnicity-reports/
-
-MPSI PAX template for Crystal : https://github.com/rfortherestofus/mpsi-pax/tree/main
-
-The Mark : https://github.com/rfortherestofus/themark?tab=readme-ov-file
-
-Sustain East Africa
-
-PMP : https://prosperportland.us/
-
-Torch : https://github.com/rfortherestofus/torch-leadership-reports + custom course
-
-Reading Partners : https://github.com/rfortherestofus/rpdashboard
-
-PP covid relief : https://github.com/rfortherestofus/pp-covid-biz-relief
-
-MPSI Covid reports : https://github.com/rfortherestofus/mpsi-covid-reports/tree/master
-
-Unicef Covid : https://github.com/rfortherestofus/unicef-covid
-
-CWP 
-
-CSEAP
-
-Pubs Effect
-
-Some project like NOAA Fisheries 
-
-Internal API : Muse, Statamic, ConvertKit, ...
-
-_Conseil - autres_
-
-Propre
-gouvdown https://github.com/spyrales/gouvdown
-
-_Formations_
-
-ICP : https://github.com/tvroylandt/icp_techniques_quanti_2019
-
-https://tvroylandt.github.io/r-cartostat/
-https://github.com/tvroylandt/r-graph?tab=readme-ov-file
-
-Pagedown course
-
-_P�le emploi_
-
-Tensions : https://dares.travail-emploi.gouv.fr/publications/les-tensions-sur-le-marche-du-travail-en-2019
-
-VPPEC Sport : https://www.strategie.gouv.fr/sites/strategie.gouv.fr/files/atoms/files/fs-2019-rapport-vppec-sport-fevrier-2019.pdf
-
-Comp�tences : https://statistiques.francetravail.org/offres/offrespub/201566
-
-BMO : https://statistiques.francetravail.org/bmo/bmopub/209090
-
-https://statistiques.francetravail.org/bmo/bmopub/207249
-
-https://statistiques.francetravail.org/bmo/bmopub/207884
-
-BMO Flash : https://statistiques.francetravail.org/offres/offrespub/206736
-
-Offres emploi : https://www.francetravail.org/files/live/sites/peorg/files/documents/Statistiques-et-analyses/S%26I/SI_18.006.pdf
-
-https://statistiques.francetravail.org/offres/offrespub/207732
-
-https://statistiques.francetravail.org/offres/offrespub/199728
-
-Int�rim : https://www.francetravail.org/files/live/sites/peorg/files/documents/Statistiques-et-analyses/S%26I/si_19.014_interim_2019janv.pdf
-
-M�tiers : https://www.francetravail.org/statistiques-analyses/entreprises/metiers/tableau-de-la-filiere-maritime-et-fluviale-en-france.html?type=article
-
-
-_Journ�e d'�tudes_
-
-Vroylandt (Th.), � Ethnographie, num�rique et statistiques : les Veilleurs de la �Manif pour tous� �, Journ�e d��tudes � De la constitution d�un corpus aux analyses statistiques �, Paris, Universit� de Nanterre, 10 octobre 2016.
-
-_Scoutisme_
-
-https://www.associations.gouv.fr/IMG/pdf/rapport_final_etude_fdva.pdf
-
-https://www.youtube.com/watch?v=BpW2_Gvs2Ds
-
-https://github.com/tvroylandt/sgdf_pagedown
-
-https://github.com/tvroylandt/intuthu
-
-Atelier chiffres du mouvement
-
-Autres projets publics ?

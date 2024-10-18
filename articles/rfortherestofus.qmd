@@ -1,0 +1,61 @@
+---
+title: "Dossiers de la Drees - 05"
+date: "2016-09-22"
+description: "Des conditions de travail en EHPAD vécues comme difficiles par des personnels très engagés"
+categories: [FR, Social policy]
+image: "../assets/img/drees.png"
+draft: true
+---
+
+Link to [publication {{< fa link >}}](https://drees.solidarites-sante.gouv.fr/publications/les-dossiers-de-la-drees/des-conditions-de-travail-en-ehpad-vecues-comme-difficiles)
+
+{{< pdf ../assets/resources/dd05.pdf width=100% height=800 >}}
+
+
+_Conseil - R for the Rest of Us_ --> en marquer certains en draft ?
+
+CT data : https://www.ctdata.org/blog/2020-psc-housing-data-profiles + https://housingprofiles.pschousing.org/
+
+IA2030 : https://publichealth.jhu.edu/ivac/2024/new-ia2030-country-profiles-to-track-immunization-achievements /+ https://scorecard.immunizationagenda2030.org/pdfs/afg.pdf
+
+OHDC Farmworker Assessment Needs : https://www.ohdc.org/uploads/1/1/2/4/11243168/ohdc_farmworker_needs_assessment_2022.pdf
+
+Oregon by the Numbers : https://www.tfff.org/oregon-numbers/
+
+Oregon Voices : https://www.orvoices.org/your-county/
+
+OMNI : https://github.com/rfortherestofus/omni
+
+ORS Impact : https://funderscommittee.org/2020censusstatereports/
+
+IVAC Pneumonia : https://publichealth.jhu.edu/ivac/resources/pneumonia-diarrhea-progress-reports
+
+CBEM Judi's House : https://judishouse.org/research-tools/cbem/cbem-key-topics/cbem-race-ethnicity/cbem-race-ethnicity-reports/
+
+MPSI PAX template for Crystal : https://github.com/rfortherestofus/mpsi-pax/tree/main
+
+The Mark : https://github.com/rfortherestofus/themark?tab=readme-ov-file
+
+Sustain East Africa
+
+PMP : https://prosperportland.us/
+
+Torch : https://github.com/rfortherestofus/torch-leadership-reports + custom course
+
+Reading Partners : https://github.com/rfortherestofus/rpdashboard
+
+PP covid relief : https://github.com/rfortherestofus/pp-covid-biz-relief
+
+MPSI Covid reports : https://github.com/rfortherestofus/mpsi-covid-reports/tree/master
+
+Unicef Covid : https://github.com/rfortherestofus/unicef-covid
+
+CWP 
+
+CSEAP
+
+Pubs Effect
+
+Some project like NOAA Fisheries 
+
+Internal API : Muse, Statamic, ConvertKit, ...

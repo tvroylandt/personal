@@ -1,0 +1,15 @@
+---
+title: "Etudes et Résultats - 1054"
+date: "2018-03-21"
+description: "115 000 personnes travaillent en 2016 dans le secteur de l'action sociale et médico-sociale des départements"
+categories: [FR, Social policy]
+image: "../assets/img/pe.png"
+---
+
+Link to [publication {{< fa link >}}](https://drees.solidarites-sante.gouv.fr/publications/etudes-et-resultats/115-000-personnes-travaillent-en-2016-dans-le-secteur-de-laction)
+
+{{< pdf ../assets/resources/er1054.pdf width=100% height=800 >}}
+
+Offres emploi : 
+
+https://statistiques.francetravail.org/offres/offrespub/207732

@@ -11,3 +11,5 @@ Video (in French):
 {{< video https://www.youtube.com/watch?v=18_XWzG6KdM >}}
 
 Slides [available on Github {{< fa brands github >}}](https://github.com/tvroylandt/gouvdown_rr_2021/blob/master/presentation_RR_2021_gouvdown.pdf)
+
+Package can be found on [Github](https://github.com/spyrales/gouvdown).

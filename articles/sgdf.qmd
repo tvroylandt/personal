@@ -1,0 +1,25 @@
+---
+title: "Dossiers de la Drees - 05"
+date: "2016-09-22"
+description: "Des conditions de travail en EHPAD vécues comme difficiles par des personnels très engagés"
+categories: [FR, Social policy]
+image: "../assets/img/drees.png"
+draft: true
+---
+
+Link to [publication {{< fa link >}}](https://drees.solidarites-sante.gouv.fr/publications/les-dossiers-de-la-drees/des-conditions-de-travail-en-ehpad-vecues-comme-difficiles)
+
+{{< pdf ../assets/resources/dd05.pdf width=100% height=800 >}}
+
+
+_Scoutisme_
+
+https://www.associations.gouv.fr/IMG/pdf/rapport_final_etude_fdva.pdf
+
+https://www.youtube.com/watch?v=BpW2_Gvs2Ds
+
+https://github.com/tvroylandt/sgdf_pagedown
+
+https://github.com/tvroylandt/intuthu
+
+Atelier chiffres du mouvement

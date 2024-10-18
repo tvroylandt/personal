@@ -1,0 +1,19 @@
+---
+title: "Dossiers de la Drees - 05"
+date: "2016-09-22"
+description: "Des conditions de travail en EHPAD vécues comme difficiles par des personnels très engagés"
+categories: [FR, Social policy]
+image: "../assets/img/pe.png"
+---
+
+Link to [publication {{< fa link >}}](https://drees.solidarites-sante.gouv.fr/publications/les-dossiers-de-la-drees/des-conditions-de-travail-en-ehpad-vecues-comme-difficiles)
+
+{{< pdf ../assets/resources/dd05.pdf width=100% height=800 >}}
+
+BMO : https://statistiques.francetravail.org/bmo/bmopub/209090
+
+https://statistiques.francetravail.org/bmo/bmopub/207249
+
+https://statistiques.francetravail.org/bmo/bmopub/207884
+
+
