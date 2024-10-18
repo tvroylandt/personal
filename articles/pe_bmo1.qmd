@@ -1,0 +1,14 @@
+---
+title: "Eclairages et Synthèse - 67"
+date: "2021-05-04"
+description: "Enquête BMO 2021"
+categories: [FR, Social policy]
+image: "../assets/img/pe.png"
+---
+
+Link to [publication {{< fa link >}}](https://statistiques.francetravail.org/bmo/bmopub/209090)
+
+{{< pdf ../assets/resources/es_67_Enquete_BMO2021.pdf width=100% height=800 >}}
+
+
+

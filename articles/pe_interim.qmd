@@ -1,13 +1,12 @@
 ---
-title: "Dossiers de la Drees - 05"
-date: "2016-09-22"
-description: "Des conditions de travail en EHPAD vécues comme difficiles par des personnels très engagés"
+title: "Statistiques et indicateurs - 19.014"
+date: "2019-03-01"
+description: "L'emploi intérimaire en janvier 2019"
 categories: [FR, Social policy]
 image: "../assets/img/pe.png"
 ---
 
-Link to [publication {{< fa link >}}](https://drees.solidarites-sante.gouv.fr/publications/les-dossiers-de-la-drees/des-conditions-de-travail-en-ehpad-vecues-comme-difficiles)
+Link to [publication {{< fa link >}}](https://www.francetravail.org/files/live/sites/peorg/files/documents/Statistiques-et-analyses/S%26I/si_19.014_interim_2019janv.pdf)
 
-{{< pdf ../assets/resources/dd05.pdf width=100% height=800 >}}
+{{< pdf ../assets/resources/si_19_014.pdf width=100% height=800 >}}
 
-https://www.francetravail.org/files/live/sites/peorg/files/documents/Statistiques-et-analyses/S%26I/si_19.014_interim_2019janv.pdf

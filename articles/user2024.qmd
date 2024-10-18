@@ -3,7 +3,7 @@ title: "UseR 2024 - Parametrized Nice Reports with Quarto and PDF"
 date: "2024-07-09"
 description: "Conference talk about how to create nice PDF reports with Quarto"
 categories: [Talks, Reports, Quarto]
-image: "../assets/img/user2024f.png"
+image: "../assets/img/user2024.png"
 ---
 
 Video :

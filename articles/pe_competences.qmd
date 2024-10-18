@@ -1,13 +1,11 @@
 ---
-title: "Dossiers de la Drees - 05"
-date: "2016-09-22"
-description: "Des conditions de travail en EHPAD vécues comme difficiles par des personnels très engagés"
+title: "Eclairages et Synthèses 58"
+date: "2020-05-29"
+description: "Quelles compétences pour quels territoires ?"
 categories: [FR, Social policy]
 image: "../assets/img/pe.png"
 ---
 
-Link to [publication {{< fa link >}}](https://drees.solidarites-sante.gouv.fr/publications/les-dossiers-de-la-drees/des-conditions-de-travail-en-ehpad-vecues-comme-difficiles)
+Link to [publication {{< fa link >}}](https://statistiques.francetravail.org/offres/offrespub/201566)
 
-{{< pdf ../assets/resources/dd05.pdf width=100% height=800 >}}
-
-Comp�tences : https://statistiques.francetravail.org/offres/offrespub/201566
+{{< pdf ../assets/resources/es_58_quelles_compétences_pour_quels_territoires.pdf width=100% height=800 >}}

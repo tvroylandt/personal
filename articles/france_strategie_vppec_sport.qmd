@@ -1,14 +1,13 @@
 ---
-title: "Dossiers de la Drees - 05"
-date: "2016-09-22"
-description: "Des conditions de travail en EHPAD vécues comme difficiles par des personnels très engagés"
+title: "VPPEC Sport"
+date: "2019-02-01"
+description: "Vision prospective partagée des emplois et des compétences - Les métiers du sport"
 categories: [FR, Social policy]
 image: "../assets/img/france_strategie.png"
 ---
 
-Link to [publication {{< fa link >}}](https://drees.solidarites-sante.gouv.fr/publications/les-dossiers-de-la-drees/des-conditions-de-travail-en-ehpad-vecues-comme-difficiles)
+Link to [publication {{< fa link >}}](https://www.strategie.gouv.fr/sites/strategie.gouv.fr/files/atoms/files/fs-2019-rapport-vppec-sport-fevrier-2019.pdf)
 
-{{< pdf ../assets/resources/dd05.pdf width=100% height=800 >}}
+{{< pdf ../assets/resources/fs-2019-rapport-vppec-sport-fevrier-2019.pdf width=100% height=800 >}}
 
-VPPEC Sport : https://www.strategie.gouv.fr/sites/strategie.gouv.fr/files/atoms/files/fs-2019-rapport-vppec-sport-fevrier-2019.pdf
-
+Participation au groupe de Travail de France Stratégie.

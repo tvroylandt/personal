@@ -1,21 +1,11 @@
 ---
-title: "Dossiers de la Drees - 05"
+title: "Trainings"
 date: "2016-09-22"
-description: "Des conditions de travail en EHPAD vécues comme difficiles par des personnels très engagés"
+description: "Formations R données à Pôle emploi"
 categories: [FR, Social policy]
-image: "../assets/img/drees.png"
+image: "../assets/img/github.png"
 ---
 
-Link to [publication {{< fa link >}}](https://drees.solidarites-sante.gouv.fr/publications/les-dossiers-de-la-drees/des-conditions-de-travail-en-ehpad-vecues-comme-difficiles)
+Mapping with R : [course {{< fa link >}}](https://tvroylandt.github.io/r-cartostat/)
 
-{{< pdf ../assets/resources/dd05.pdf width=100% height=800 >}}
-
-_Formations_
-
-https://tvroylandt.github.io/r-cartostat/
-https://github.com/tvroylandt/r-graph?tab=readme-ov-file
-
-Pagedown course
-
-
-
+Data Cleaning and graphs with R : [course {{< fa link >}}](https://github.com/tvroylandt/r-graph?tab=readme-ov-file)

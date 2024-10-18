@@ -1,0 +1,11 @@
+---
+title: "Eclairages et Synthèse - 52"
+date: "2019-04-01"
+description: "Enquête BMO 2019"
+categories: [FR, Social policy]
+image: "../assets/img/pe.png"
+---
+
+Link to [publication {{< fa link >}}](https://statistiques.francetravail.org/bmo/bmopub/207884)
+
+{{< pdf ../assets/resources/France_Publication_ES_52_BMO2019.pdf width=100% height=800 >}}

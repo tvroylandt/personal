@@ -1,13 +1,11 @@
 ---
-title: "Etudes et Résultats - 1054"
+title: "Statistiques et indicateurs - offres d'emploi"
 date: "2018-03-21"
-description: "115 000 personnes travaillent en 2016 dans le secteur de l'action sociale et médico-sociale des départements"
+description: "Les offres d'emploi diffusées par Pôle emploi"
 categories: [FR, Social policy]
 image: "../assets/img/pe.png"
 ---
 
-Link to [publication {{< fa link >}}](https://drees.solidarites-sante.gouv.fr/publications/etudes-et-resultats/115-000-personnes-travaillent-en-2016-dans-le-secteur-de-laction)
+Link to [publication {{< fa link >}}](https://www.francetravail.org/files/live/sites/peorg/files/documents/Statistiques-et-analyses/S%26I/SI_18.006.pdf)
 
-{{< pdf ../assets/resources/er1054.pdf width=100% height=800 >}}
-
-Offres emploi : https://www.francetravail.org/files/live/sites/peorg/files/documents/Statistiques-et-analyses/S%26I/SI_18.006.pdf
+{{< pdf ../assets/resources/SI_18.006.pdf width=100% height=800 >}}

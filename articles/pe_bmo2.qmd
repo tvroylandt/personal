@@ -1,0 +1,12 @@
+---
+title: "Eclairages et Synthèse - 57"
+date: "2020-05-15"
+description: "Enquête BMO 2020"
+categories: [FR, Social policy]
+image: "../assets/img/pe.png"
+---
+
+Link to [publication {{< fa link >}}](https://statistiques.francetravail.org/bmo/bmopub/207249)
+
+{{< pdf ../assets/resources/es_57_Enquete_BMO2020.pdf width=100% height=800 >}}
+
