@@ -4,7 +4,7 @@
     "href": "articles.html",
     "title": "Articles",
     "section": "",
-    "text": "Projects I was involved in –&gt; tout t�l�charger et mettre dans ressources pour conserver une trace\nBlog posts\nReprendre les posts Tillac, en format readme sur github ? ou en standalone\nConseil - Drees\n\nPanorama statistique : https://data.drees.solidarites-sante.gouv.fr/explore/?q=PANORAMA+STATISTIQUE&sort=modified\nISD : https://drees.solidarites-sante.gouv.fr/240528_DATA_ISD\n\nConseil - R for the Rest of Us –&gt; en marquer certains en draft ?\nCT data : https://www.ctdata.org/blog/2020-psc-housing-data-profiles + https://housingprofiles.pschousing.org/\nIA2030 : https://publichealth.jhu.edu/ivac/2024/new-ia2030-country-profiles-to-track-immunization-achievements /+ https://scorecard.immunizationagenda2030.org/pdfs/afg.pdf\nOHDC Farmworker Assessment Needs : https://www.ohdc.org/uploads/1/1/2/4/11243168/ohdc_farmworker_needs_assessment_2022.pdf\nOregon by the Numbers : https://www.tfff.org/oregon-numbers/\nOregon Voices : https://www.orvoices.org/your-county/\nOMNI : https://github.com/rfortherestofus/omni\nORS Impact : https://funderscommittee.org/2020censusstatereports/\nIVAC Pneumonia : https://publichealth.jhu.edu/ivac/resources/pneumonia-diarrhea-progress-reports\nCBEM Judi’s House : https://judishouse.org/research-tools/cbem/cbem-key-topics/cbem-race-ethnicity/cbem-race-ethnicity-reports/\nMPSI PAX template for Crystal : https://github.com/rfortherestofus/mpsi-pax/tree/main\nThe Mark : https://github.com/rfortherestofus/themark?tab=readme-ov-file\nSustain East Africa\nPMP : https://prosperportland.us/\nTorch : https://github.com/rfortherestofus/torch-leadership-reports + custom course\nReading Partners : https://github.com/rfortherestofus/rpdashboard\nPP covid relief : https://github.com/rfortherestofus/pp-covid-biz-relief\nMPSI Covid reports : https://github.com/rfortherestofus/mpsi-covid-reports/tree/master\nUnicef Covid : https://github.com/rfortherestofus/unicef-covid\nCWP\nCSEAP\nPubs Effect\nSome project like NOAA Fisheries\nInternal API : Muse, Statamic, ConvertKit, …\nConseil - autres\nPropre gouvdown https://github.com/spyrales/gouvdown\nFormations\nICP : https://github.com/tvroylandt/icp_techniques_quanti_2019\nhttps://tvroylandt.github.io/r-cartostat/ https://github.com/tvroylandt/r-graph?tab=readme-ov-file\nPagedown course\nUn�dic\nhttps://www.unedic.org/publications/comprendre-le-sous-emploi\nhttps://www.unedic.org/publications/effets-de-ladaptation-des-regles-dassurance-chomage-la-conjoncture\nhttps://www.unedic.org/publications/suivi-et-effets-de-la-reglementation-d-assurance-chomage-en-2023\nhttps://www.unedic.org/publications/suivi-de-la-reglementation-2021-d-assurance-chomage\nhttps://www.unedic.org/publications/assurance-chomage-et-minima-sociaux-panorama-des-dispositifs\nhttps://www.unedic.org/publications/comment-s-articulent-chomage-prime-d-activite-et-rsa\nP�le emploi\nTensions : https://dares.travail-emploi.gouv.fr/publications/les-tensions-sur-le-marche-du-travail-en-2019\nVPPEC Sport : https://www.strategie.gouv.fr/sites/strategie.gouv.fr/files/atoms/files/fs-2019-rapport-vppec-sport-fevrier-2019.pdf\nComp�tences : https://statistiques.francetravail.org/offres/offrespub/201566\nBMO : https://statistiques.francetravail.org/bmo/bmopub/209090\nhttps://statistiques.francetravail.org/bmo/bmopub/207249\nhttps://statistiques.francetravail.org/bmo/bmopub/207884\nBMO Flash : https://statistiques.francetravail.org/offres/offrespub/206736\nOffres emploi : https://www.francetravail.org/files/live/sites/peorg/files/documents/Statistiques-et-analyses/S%26I/SI_18.006.pdf\nhttps://statistiques.francetravail.org/offres/offrespub/207732\nhttps://statistiques.francetravail.org/offres/offrespub/199728\nInt�rim : https://www.francetravail.org/files/live/sites/peorg/files/documents/Statistiques-et-analyses/S%26I/si_19.014_interim_2019janv.pdf\nM�tiers : https://www.francetravail.org/statistiques-analyses/entreprises/metiers/tableau-de-la-filiere-maritime-et-fluviale-en-france.html?type=article\nArticles\nhttps://www.cairn.info/revue-savoir-agir-2015-3-page-103.htm\nhttps://www.cairn.info/revue-participations-2017-3-page-49.htm\nJourn�e d’�tudes\nVroylandt (Th.), � Ethnographie, num�rique et statistiques : les Veilleurs de la �Manif pour tous� �, Journ�e d��tudes � De la constitution d�un corpus aux analyses statistiques �, Paris, Universit� de Nanterre, 10 octobre 2016.\nScoutisme\nhttps://www.associations.gouv.fr/IMG/pdf/rapport_final_etude_fdva.pdf\nhttps://www.youtube.com/watch?v=BpW2_Gvs2Ds\nhttps://github.com/tvroylandt/sgdf_pagedown\nhttps://github.com/tvroylandt/intuthu\nAtelier chiffres du mouvement\nAutres projets publics ?\n\n\n\n\n\n\n\n\n\n\n\n\nUseR 2024 - Parametrized Nice Reports with Quarto and PDF\n\n\n\nTalks\n\n\nReports\n\n\nQuarto\n\n\n\nConference talk about how to create nice PDF reports with Quarto\n\n\n\n\n\n\nJul 9, 2024\n\n\n\n\n\n\n\n\n\n\n\nquarto.report\n\n\n\nReports\n\n\nQuarto\n\n\nTemplates\n\n\n\nquarto.report is a Quarto extension to help you create reports in Quarto without the burden of handling the stylesheet\n\n\n\nJul 9, 2024\n\n\n\n\n\n\n\n\n\n\n\nRencontres R 2024 - Cleaning data from Excel\n\n\n\nFR\n\n\nTalks\n\n\nExcel\n\n\nData cleaning\n\n\n\nThis talk presents some useful ways to clean data from Excel that are oddly formatted, mainly using tidyxl and unpivotr\n\n\n\nJun 10, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nRencontres R 2021 - gouvdown\n\n\n\nFR\n\n\nTalks\n\n\nReports\n\n\nRMarkdown\n\n\n\nConference talk about gouvdown, R package that implement the official French design guide\n\n\n\n\n\n\nJul 13, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nRencontres R 2021 - pagedown\n\n\n\nFR\n\n\nTalks\n\n\nReports\n\n\nRMarkdown\n\n\n\nConference talk about creating a custom template with pagedown\n\n\n\n\n\n\nJul 13, 2021\n\n\n\n\n\n\n\n\n\n\n\npagedreport\n\n\n\nReports\n\n\nRMarkdown\n\n\nTemplates\n\n\n\npagedreport is an R package to help you make beautiful PDF-based reports from RMarkdown\n\n\n\nMay 1, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEtudes et Résultats - 1054\n\n\n\nFR\n\n\nSocial policy\n\n\n\n115 000 personnes travaillent en 2016 dans le secteur de l’action sociale et médico-sociale des départements\n\n\n\n\n\n\nMar 21, 2018\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEtudes et Résultats - 1044\n\n\n\nFR\n\n\nSocial policy\n\n\n\n7 800 étudiants en formation d�assistant de service social en 2016\n\n\n\n\n\n\nDec 14, 2017\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEtudes et Résultats - 1020\n\n\n\nFR\n\n\nSocial policy\n\n\n\nLes assistant.e.s maternel.le.s ont gagn� en moyenne 1 108 euros en juin 2014\n\n\n\n\n\n\nAug 29, 2017\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNonfiction\n\n\n\nFR\n\n\nCompte-rendu\n\n\n\nNonfiction est un site de compte-rendu d’ouvrages scientifiques\n\n\n\nMay 12, 2017\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEtudes et Résultats - 986\n\n\n\nFR\n\n\nSocial policy\n\n\n\nUne baisse de 7 % des étudiants inscrits en formations sociales entre 2010 et 2015\n\n\n\n\n\n\nDec 9, 2016\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEtudes et Résultats - 978\n\n\n\nFR\n\n\nSocial policy\n\n\n\nLes assistantes maternelles gardent 8 % d’enfants de plus en 2014 qu�en 2010\n\n\n\n\n\n\nOct 14, 2016\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDossiers de la Drees - 05\n\n\n\nFR\n\n\nSocial policy\n\n\n\nDes conditions de travail en EHPAD vécues comme difficiles par des personnels très engagés\n\n\n\n\n\n\nSep 22, 2016\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEtudes et Résultats - 953\n\n\n\nFR\n\n\nSocial policy\n\n\n\nFormations en travail social : 62 000 étudiants en 2014\n\n\n\n\n\n\nFeb 29, 2016\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLectures\n\n\n\nFR\n\n\nCompte-rendu\n\n\n\nLectures est un site de compte-rendu d’ouvrages scientifiques\n\n\n\nJan 1, 2015\n\n\n\n\n\n\n\n\nNo matching items",
+    "text": "UseR 2024 - Parametrized Nice Reports with Quarto and PDF\n\n\n\nTalks\n\n\nReports\n\n\nQuarto\n\n\n\nConference talk about how to create nice PDF reports with Quarto\n\n\n\n\n\n\nJul 9, 2024\n\n\n\n\n\n\n\n\n\n\n\nquarto.report\n\n\n\nReports\n\n\nQuarto\n\n\nTemplates\n\n\n\nquarto.report is a Quarto extension to help you create reports in Quarto without the burden of handling the stylesheet\n\n\n\nJul 9, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPanorama statistique\n\n\n\nFR\n\n\nSocial policy\n\n\n\nLe Panorama statistique de la Drees offre une vision complète des politiques sociales à l’échelle locale\n\n\n\nJul 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRencontres R 2024 - Cleaning data from Excel\n\n\n\nFR\n\n\nTalks\n\n\nExcel\n\n\nData cleaning\n\n\n\nThis talk presents some useful ways to clean data from Excel that are oddly formatted, mainly using tidyxl and unpivotr\n\n\n\nJun 10, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUnédic - Sous-emploi\n\n\n\nFR\n\n\nUnemployment policy\n\n\n\nComprendre le sous-emploi\n\n\n\n\n\n\nMay 30, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nISD\n\n\n\nFR\n\n\nSocial policy\n\n\n\nLes Indicateurs Sociaux Départementaux (ISD) servent au suivi locale des politiques sociales\n\n\n\nMay 28, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUnédic - Chômage et minima sociaux\n\n\n\nFR\n\n\nUnemployment policy\n\n\nSocial policy\n\n\n\nComment s’articulent chômage, prime d’activité et RSA ?\n\n\n\n\n\n\nFeb 29, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUnédic - Réglementation 2023\n\n\n\nFR\n\n\nUnemployment policy\n\n\n\nSuivi et effets de la réglementation d’assurance chômage\n\n\n\n\n\n\nFeb 23, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUnédic - Réglementation 2021\n\n\n\nFR\n\n\nUnemployment policy\n\n\n\nSuivi de la règlementation 2021 d’assurance chômage\n\n\n\n\n\n\nFeb 24, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRencontres R 2021 - pagedown\n\n\n\nFR\n\n\nTalks\n\n\nReports\n\n\nRMarkdown\n\n\n\nConference talk about creating a custom template with pagedown\n\n\n\n\n\n\nJul 13, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRencontres R 2021 - gouvdown\n\n\n\nFR\n\n\nTalks\n\n\nReports\n\n\nRMarkdown\n\n\n\nConference talk about gouvdown, R package that implement the official French design guide\n\n\n\n\n\n\nJul 13, 2021\n\n\n\n\n\n\n\n\n\n\n\npagedreport\n\n\n\nReports\n\n\nRMarkdown\n\n\nTemplates\n\n\n\npagedreport is an R package to help you make beautiful PDF-based reports from RMarkdown\n\n\n\nMay 1, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEtudes et Résultats - 1054\n\n\n\nFR\n\n\nSocial policy\n\n\n\n115 000 personnes travaillent en 2016 dans le secteur de l’action sociale et médico-sociale des départements\n\n\n\n\n\n\nMar 21, 2018\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEtudes et Résultats - 1054\n\n\n\nFR\n\n\nSocial policy\n\n\n\n115 000 personnes travaillent en 2016 dans le secteur de l’action sociale et médico-sociale des départements\n\n\n\n\n\n\nMar 21, 2018\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEtudes et Résultats - 1054\n\n\n\nFR\n\n\nSocial policy\n\n\n\n115 000 personnes travaillent en 2016 dans le secteur de l’action sociale et médico-sociale des départements\n\n\n\n\n\n\nMar 21, 2018\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEtudes et Résultats - 1044\n\n\n\nFR\n\n\nSocial policy\n\n\n\n7 800 étudiants en formation d’assistant de service social en 2016\n\n\n\n\n\n\nDec 14, 2017\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCairn - Participations\n\n\n\nFR\n\n\nScout\n\n\nSociology\n\n\n\nD’une rive à l’autre du scoutisme : des aventures buissonnières à l’apprentissage de la citoyenneté\n\n\n\nSep 1, 2017\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEtudes et Résultats - 1020\n\n\n\nFR\n\n\nSocial policy\n\n\n\nLes assistant.e.s maternel.le.s ont gagné en moyenne 1 108 euros en juin 2014\n\n\n\n\n\n\nAug 29, 2017\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNonfiction\n\n\n\nFR\n\n\nCompte-rendu\n\n\nSociology\n\n\n\nNonfiction est un site de compte-rendu d’ouvrages scientifiques\n\n\n\nMay 12, 2017\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEtudes et Résultats - 986\n\n\n\nFR\n\n\nSocial policy\n\n\n\nUne baisse de 7 % des étudiants inscrits en formations sociales entre 2010 et 2015\n\n\n\n\n\n\nDec 9, 2016\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEtudes et Résultats - 978\n\n\n\nFR\n\n\nSocial policy\n\n\n\nLes assistantes maternelles gardent 8 % d’enfants de plus en 2014 qu’en 2010\n\n\n\n\n\n\nOct 14, 2016\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEthnographie, numérique et statistiques : les Veilleurs de la ‘Manif pour tous’, Journée d’études - De la constitution d’un corpus aux analyses statistiques\n\n\n\nFR\n\n\nSociology\n\n\n\nJournée d’études dans le cadre de la recherche menée sous la direction de Marie Balas (Unistra)\n\n\n\nOct 10, 2016\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDossiers de la Drees - 05\n\n\n\nFR\n\n\nSocial policy\n\n\n\nDes conditions de travail en EHPAD vécues comme difficiles par des personnels très engagés\n\n\n\n\n\n\nSep 22, 2016\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDossiers de la Drees - 05\n\n\n\nFR\n\n\nSocial policy\n\n\n\nDes conditions de travail en EHPAD vécues comme difficiles par des personnels très engagés\n\n\n\n\n\n\nSep 22, 2016\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDossiers de la Drees - 05\n\n\n\nFR\n\n\nSocial policy\n\n\n\nDes conditions de travail en EHPAD vécues comme difficiles par des personnels très engagés\n\n\n\n\n\n\nSep 22, 2016\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDossiers de la Drees - 05\n\n\n\nFR\n\n\nSocial policy\n\n\n\nDes conditions de travail en EHPAD vécues comme difficiles par des personnels très engagés\n\n\n\n\n\n\nSep 22, 2016\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDossiers de la Drees - 05\n\n\n\nFR\n\n\nSocial policy\n\n\n\nDes conditions de travail en EHPAD vécues comme difficiles par des personnels très engagés\n\n\n\n\n\n\nSep 22, 2016\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDossiers de la Drees - 05\n\n\n\nFR\n\n\nSocial policy\n\n\n\nDes conditions de travail en EHPAD vécues comme difficiles par des personnels très engagés\n\n\n\n\n\n\nSep 22, 2016\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDossiers de la Drees - 05\n\n\n\nFR\n\n\nSocial policy\n\n\n\nDes conditions de travail en EHPAD vécues comme difficiles par des personnels très engagés\n\n\n\n\n\n\nSep 22, 2016\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDossiers de la Drees - 05\n\n\n\nFR\n\n\nSocial policy\n\n\n\nDes conditions de travail en EHPAD vécues comme difficiles par des personnels très engagés\n\n\n\n\n\n\nSep 22, 2016\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDossiers de la Drees - 05\n\n\n\nFR\n\n\nSocial policy\n\n\n\nDes conditions de travail en EHPAD vécues comme difficiles par des personnels très engagés\n\n\n\n\n\n\nSep 22, 2016\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDossiers de la Drees - 05\n\n\n\nFR\n\n\nSocial policy\n\n\n\nDes conditions de travail en EHPAD vécues comme difficiles par des personnels très engagés\n\n\n\n\n\n\nSep 22, 2016\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEtudes et Résultats - 953\n\n\n\nFR\n\n\nSocial policy\n\n\n\nFormations en travail social : 62 000 étudiants en 2014\n\n\n\n\n\n\nFeb 29, 2016\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCairn - Savoir/Agir\n\n\n\nFR\n\n\nSociology\n\n\n\nPolitique de la ville. Que nous révèle la qualit� de vie ?\n\n\n\nSep 1, 2015\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLectures\n\n\n\nFR\n\n\nCompte-rendu\n\n\nSociology\n\n\n\nLectures est un site de compte-rendu d’ouvrages scientifiques\n\n\n\nJan 1, 2015\n\n\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Articles"
     ]
@@ -17,18 +17,67 @@
     "text": "Hi, I’m Thomas \n\n\n\n\nWelcome to my personal website !\nI’m a data everything from France (replace with analyst/scientist or whatever you prefer). I work as an independant consultant (in fact with my wife) @Kantiles.\nI often work with R for the Rest of Us.\n You can reach me at thomas@kantiles.com\nI like to build reports by hundreds, create dashboards that won’t break your mind or your computer, refine data workflow or simply help people to do a better job with data.\n My toolbox includes R, Quarto, Python, JavaScript (mostly Observable) and some styling languages like HTML or CSS.\nCheckout my work:\nAbout PDF reporting:\n\nquarto.report is a Quarto extension to produce better PDF reports without using LaTeX and without to lost your sanity. It’s the successor or pagedreport\nSome clients made our work public, see:\n\nIA2030 for IVAC & WHO\n\n \n\nOregon Voices for TFFF\n\n \n\nHousing Data Profiles for PSC Housing\n\n \n\nOn the interactive side:\n\nI did some interactive dashboard with Observable too\nI also made some data exploration with MapLibre and JS\n\n\nIf you came here after UseR 2024 of the Rencontres R, here are my talks :\n\nUseR 2024 about parametrized reporting\nRencontres R 2024 about Excel data cleaning\nRencontres R 2021 about creating a template with {pagedown}\n\nOn my freetime I like to run and take care of my children (or just trying to survive to this mess they create everyday)."
   },
   {
-    "objectID": "articles/drees_er953.html",
-    "href": "articles/drees_er953.html",
-    "title": "Etudes et Résultats - 953",
+    "objectID": "articles/unedic_reglementation2023.html",
+    "href": "articles/unedic_reglementation2023.html",
+    "title": "Unédic - Réglementation 2023",
+    "section": "",
+    "text": "Link to publication \nDownload PDF file.\nLink to publication \nDownload PDF file."
+  },
+  {
+    "objectID": "articles/unedic_reglementation2021.html",
+    "href": "articles/unedic_reglementation2021.html",
+    "title": "Unédic - Réglementation 2021",
     "section": "",
     "text": "Link to publication \nDownload PDF file."
   },
   {
-    "objectID": "articles/drees_er1020.html",
-    "href": "articles/drees_er1020.html",
-    "title": "Etudes et Résultats - 1020",
+    "objectID": "articles/pe_interim.html",
+    "href": "articles/pe_interim.html",
+    "title": "Dossiers de la Drees - 05",
     "section": "",
-    "text": "Link to publication \nDownload PDF file."
+    "text": "Link to publication \nDownload PDF file.\nhttps://www.francetravail.org/files/live/sites/peorg/files/documents/Statistiques-et-analyses/S%26I/si_19.014_interim_2019janv.pdf"
+  },
+  {
+    "objectID": "articles/rr_2021_gouvdown.html",
+    "href": "articles/rr_2021_gouvdown.html",
+    "title": "Rencontres R 2021 - gouvdown",
+    "section": "",
+    "text": "Video (in French):\n\nSlides available on Github \nPackage can be found on Github."
+  },
+  {
+    "objectID": "articles/pe_offres2.html",
+    "href": "articles/pe_offres2.html",
+    "title": "Etudes et Résultats - 1054",
+    "section": "",
+    "text": "Link to publication \nDownload PDF file.\nOffres emploi :\nhttps://statistiques.francetravail.org/offres/offrespub/207732"
+  },
+  {
+    "objectID": "articles/formations.html",
+    "href": "articles/formations.html",
+    "title": "Dossiers de la Drees - 05",
+    "section": "",
+    "text": "Link to publication \nDownload PDF file.\nFormations\nhttps://tvroylandt.github.io/r-cartostat/ https://github.com/tvroylandt/r-graph?tab=readme-ov-file\nPagedown course"
+  },
+  {
+    "objectID": "articles/icp_techniques_quanti.html",
+    "href": "articles/icp_techniques_quanti.html",
+    "title": "Dossiers de la Drees - 05",
+    "section": "",
+    "text": "Link to publication \nDownload PDF file.\nICP : https://github.com/tvroylandt/icp_techniques_quanti_2019"
+  },
+  {
+    "objectID": "articles/unedic_minimas.html",
+    "href": "articles/unedic_minimas.html",
+    "title": "Unédic - Chômage et minima sociaux",
+    "section": "",
+    "text": "Link to publication \nDownload PDF file.\nLink to publication \nDownload PDF file."
+  },
+  {
+    "objectID": "articles/pe_bmo_flash.html",
+    "href": "articles/pe_bmo_flash.html",
+    "title": "Dossiers de la Drees - 05",
+    "section": "",
+    "text": "Link to publication \nDownload PDF file.\nBMO Flash : https://statistiques.francetravail.org/offres/offrespub/206736"
   },
   {
     "objectID": "articles/user2024.html",
@@ -38,18 +87,109 @@
     "text": "Video :\nIncoming\nSlides available on Github"
   },
   {
-    "objectID": "articles/drees_er1054.html",
-    "href": "articles/drees_er1054.html",
-    "title": "Etudes et Résultats - 1054",
+    "objectID": "articles/france_strategie_vppec_sport.html",
+    "href": "articles/france_strategie_vppec_sport.html",
+    "title": "Dossiers de la Drees - 05",
+    "section": "",
+    "text": "Link to publication \nDownload PDF file.\nVPPEC Sport : https://www.strategie.gouv.fr/sites/strategie.gouv.fr/files/atoms/files/fs-2019-rapport-vppec-sport-fevrier-2019.pdf"
+  },
+  {
+    "objectID": "articles/drees_er978.html",
+    "href": "articles/drees_er978.html",
+    "title": "Etudes et Résultats - 978",
     "section": "",
     "text": "Link to publication \nDownload PDF file."
   },
   {
-    "objectID": "articles/rr_2021_gouvdown.html",
-    "href": "articles/rr_2021_gouvdown.html",
-    "title": "Rencontres R 2021 - gouvdown",
+    "objectID": "articles/dares_pe_tensions.html",
+    "href": "articles/dares_pe_tensions.html",
+    "title": "Dossiers de la Drees - 05",
+    "section": "",
+    "text": "Link to publication \nDownload PDF file.\nTensions : https://dares.travail-emploi.gouv.fr/publications/les-tensions-sur-le-marche-du-travail-en-2019"
+  },
+  {
+    "objectID": "articles/drees_er953.html",
+    "href": "articles/drees_er953.html",
+    "title": "Etudes et Résultats - 953",
+    "section": "",
+    "text": "Link to publication \nDownload PDF file."
+  },
+  {
+    "objectID": "articles/drees_er986.html",
+    "href": "articles/drees_er986.html",
+    "title": "Etudes et Résultats - 986",
+    "section": "",
+    "text": "Link to publication \nDownload PDF file."
+  },
+  {
+    "objectID": "articles/rr_2021_pagedown.html",
+    "href": "articles/rr_2021_pagedown.html",
+    "title": "Rencontres R 2021 - pagedown",
     "section": "",
     "text": "Video (in French):\n\nSlides available on Github"
+  },
+  {
+    "objectID": "articles/drees_er1044.html",
+    "href": "articles/drees_er1044.html",
+    "title": "Etudes et Résultats - 1044",
+    "section": "",
+    "text": "Link to publication \nDownload PDF file."
+  },
+  {
+    "objectID": "articles/pe_competences.html",
+    "href": "articles/pe_competences.html",
+    "title": "Dossiers de la Drees - 05",
+    "section": "",
+    "text": "Link to publication \nDownload PDF file.\nComp�tences : https://statistiques.francetravail.org/offres/offrespub/201566"
+  },
+  {
+    "objectID": "articles/pe_offres1.html",
+    "href": "articles/pe_offres1.html",
+    "title": "Etudes et Résultats - 1054",
+    "section": "",
+    "text": "Link to publication \nDownload PDF file.\nOffres emploi : https://www.francetravail.org/files/live/sites/peorg/files/documents/Statistiques-et-analyses/S%26I/SI_18.006.pdf"
+  },
+  {
+    "objectID": "articles/pe_offres3.html",
+    "href": "articles/pe_offres3.html",
+    "title": "Etudes et Résultats - 1054",
+    "section": "",
+    "text": "Link to publication \nDownload PDF file.\nOffres emploi :\nhttps://statistiques.francetravail.org/offres/offrespub/199728"
+  },
+  {
+    "objectID": "articles/drees_dd05.html",
+    "href": "articles/drees_dd05.html",
+    "title": "Dossiers de la Drees - 05",
+    "section": "",
+    "text": "Link to publication \nDownload PDF file."
+  },
+  {
+    "objectID": "articles/pe_bmo.html",
+    "href": "articles/pe_bmo.html",
+    "title": "Dossiers de la Drees - 05",
+    "section": "",
+    "text": "Link to publication \nDownload PDF file.\nBMO : https://statistiques.francetravail.org/bmo/bmopub/209090\nhttps://statistiques.francetravail.org/bmo/bmopub/207249\nhttps://statistiques.francetravail.org/bmo/bmopub/207884"
+  },
+  {
+    "objectID": "articles/pe_filiere_maritime.html",
+    "href": "articles/pe_filiere_maritime.html",
+    "title": "Dossiers de la Drees - 05",
+    "section": "",
+    "text": "Link to publication \nDownload PDF file.\nM�tiers : https://www.francetravail.org/statistiques-analyses/entreprises/metiers/tableau-de-la-filiere-maritime-et-fluviale-en-france.html?type=article"
+  },
+  {
+    "objectID": "articles/unedic_sous-emploi.html",
+    "href": "articles/unedic_sous-emploi.html",
+    "title": "Unédic - Sous-emploi",
+    "section": "",
+    "text": "Link to publication \nDownload PDF file."
+  },
+  {
+    "objectID": "articles/drees_er1020.html",
+    "href": "articles/drees_er1020.html",
+    "title": "Etudes et Résultats - 1020",
+    "section": "",
+    "text": "Link to publication \nDownload PDF file."
   },
   {
     "objectID": "about.html",
@@ -109,58 +249,6 @@
     "text": "Languages\n\nFrench (native)\nEnglish (fluent)\nGerman (good level)",
     "crumbs": [
       "About"
-    ]
-  },
-  {
-    "objectID": "clients/test.html",
-    "href": "clients/test.html",
-    "title": "Test",
-    "section": "",
-    "text": "Work In Progress"
-  },
-  {
-    "objectID": "articles/rr_2021_pagedown.html",
-    "href": "articles/rr_2021_pagedown.html",
-    "title": "Rencontres R 2021 - pagedown",
-    "section": "",
-    "text": "Video (in French):\n\nSlides available on Github"
-  },
-  {
-    "objectID": "articles/drees_er978.html",
-    "href": "articles/drees_er978.html",
-    "title": "Etudes et Résultats - 978",
-    "section": "",
-    "text": "Link to publication \nDownload PDF file."
-  },
-  {
-    "objectID": "articles/drees_er1044.html",
-    "href": "articles/drees_er1044.html",
-    "title": "Etudes et Résultats - 1044",
-    "section": "",
-    "text": "Link to publication \nDownload PDF file."
-  },
-  {
-    "objectID": "articles/drees_dd05.html",
-    "href": "articles/drees_dd05.html",
-    "title": "Dossiers de la Drees - 05",
-    "section": "",
-    "text": "Link to publication \nDownload PDF file."
-  },
-  {
-    "objectID": "articles/drees_er986.html",
-    "href": "articles/drees_er986.html",
-    "title": "Etudes et Résultats - 986",
-    "section": "",
-    "text": "Link to publication \nDownload PDF file."
-  },
-  {
-    "objectID": "clients.html",
-    "href": "clients.html",
-    "title": "Use cases",
-    "section": "",
-    "text": "Test\n\n\n\n\n\n\n\n\n\nJan 1, 1990\n\n\n\n\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "Use cases"
     ]
   }
 ]

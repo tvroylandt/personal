@@ -3,21 +3,30 @@
     "listing": "/articles.html",
     "items": [
       "/articles/user2024.html",
-      "/articles/rr_2021_gouvdown.html",
+      "/articles/unedic_sous-emploi.html",
+      "/articles/unedic_minimas.html",
+      "/articles/unedic_reglementation2023.html",
+      "/articles/unedic_reglementation2021.html",
       "/articles/rr_2021_pagedown.html",
-      "/articles/drees_er1054.html",
+      "/articles/rr_2021_gouvdown.html",
+      "/articles/pe_offres1.html",
+      "/articles/pe_offres3.html",
+      "/articles/pe_offres2.html",
       "/articles/drees_er1044.html",
       "/articles/drees_er1020.html",
       "/articles/drees_er986.html",
       "/articles/drees_er978.html",
+      "/articles/dares_pe_tensions.html",
+      "/articles/france_strategie_vppec_sport.html",
+      "/articles/pe_bmo_flash.html",
+      "/articles/pe_competences.html",
+      "/articles/icp_techniques_quanti.html",
+      "/articles/formations.html",
       "/articles/drees_dd05.html",
+      "/articles/pe_bmo.html",
+      "/articles/pe_filiere_maritime.html",
+      "/articles/pe_interim.html",
       "/articles/drees_er953.html"
-    ]
-  },
-  {
-    "listing": "/clients.html",
-    "items": [
-      "/clients/test.html"
     ]
   }
 ]
