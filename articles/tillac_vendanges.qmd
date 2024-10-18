@@ -4,6 +4,9 @@ date: "2020-07-08"
 description: "Use Github Actions as an orchestrator tool to print your tweets on a table"
 categories: [Blog]
 image: ""
+draft: true
+execute: 
+  eval: false
 ---
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(
@@ -82,8 +85,8 @@ On va s'appliquer ici à mettre en avant quelques caractéristiques de cet emplo
 
 Au sein de la profession des ouvriers viticoles et arboriculteurs, deux modalités d'emploi se dessinent :
 
-+ d'un côté des emplois permanents (ou poste non-annexe), à l'année ou sur des périodes longues. En moyenne, sur 10 ans, ils représentent `r filter(moy_10ans, filtre_poste == "Non annexe")$part_empl` % des emplois et `r filter(moy_10ans, filtre_poste == "Non annexe")$part_jour` % des jours travaillés ;
-+ de l'autre côté des emplois saisonniers (ou poste annexe), sur de courtes périodes, pour les récoltes. De façon, inverse, ils représentent la majorité des emplois, `r filter(moy_10ans, filtre_poste == "Annexe")$part_empl` %, mais seulement `r filter(moy_10ans, filtre_poste == "Annexe")$part_jour` % des jours travaillés.
++ d'un côté des emplois permanents (ou poste non-annexe), à l'année ou sur des périodes longues. En moyenne, sur 10 ans, ils représentent ` filter(moy_10ans, filtre_poste == "Non annexe")$part_empl` % des emplois et ` filter(moy_10ans, filtre_poste == "Non annexe")$part_jour` % des jours travaillés ;
++ de l'autre côté des emplois saisonniers (ou poste annexe), sur de courtes périodes, pour les récoltes. De façon, inverse, ils représentent la majorité des emplois, ` filter(moy_10ans, filtre_poste == "Annexe")$part_empl` %, mais seulement ` filter(moy_10ans, filtre_poste == "Annexe")$part_jour` % des jours travaillés.
 
 ## La saisonnalité de l'emploi
 

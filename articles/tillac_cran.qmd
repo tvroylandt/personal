@@ -4,6 +4,9 @@ date: "2020-07-08"
 description: "Use Github Actions as an orchestrator tool to print your tweets on a table"
 categories: [Blog]
 image: ""
+draft: true
+execute: 
+  eval: false
 ---
 
 ```{r setup, include=FALSE}
@@ -286,7 +289,7 @@ nb_multi_authors <- df_authors_count %>%
   pull(share)
 ```
 
-Talking about packages is nice. But behind them lies people. And a lot of people. For the top packages shown before, `r nb_multi_authors` of them are multi-authors packages (I counted all roles like authors or creator). And some have a lot of contributors, like the `{ape}` package. Some heterogeneity in role declarations could make it difficult to compare across packages.
+Talking about packages is nice. But behind them lies people. And a lot of people. For the top packages shown before, `nb_multi_authors` of them are multi-authors packages (I counted all roles like authors or creator). And some have a lot of contributors, like the `{ape}` package. Some heterogeneity in role declarations could make it difficult to compare across packages.
 
 R packages are a matter of collaborations since a lot of packages are multi-authored. They are built on top of some collaborations. And we could link the people together based on the package they worked on. As an example, here is the graph for all the people that participated in the "main" packages cited above.
 
