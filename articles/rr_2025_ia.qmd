@@ -1,0 +1,11 @@
+---
+title: "Rencontres R 2025 - Verbatims et IA locale"
+date: "2025-05-20"
+description: "Conference talk about processing verbatims and open-ended survey questions with a local AI model"
+categories: [FR, Talks, AI, Text analysis]
+image: "../assets/img/rr2025.png"
+---
+
+Slides [available online {{< fa link >}}](https://kantiles.github.io/rr_2025_ia/prez_verbatim_ia_kantiles.html)
+
+Talk with Victoire Chatain and Emmanuel Herbepin (Kantiles). Abstract on the [conference website {{< fa link >}}](https://rr2025.sciencesconf.org/619493).

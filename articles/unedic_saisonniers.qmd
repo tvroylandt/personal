@@ -1,0 +1,11 @@
+---
+title: "Unédic - Travail saisonnier"
+date: "2025-01-13"
+description: "Qui ouvre un droit à l'Assurance chômage avec un contrat saisonnier ?"
+categories: [FR, Unemployment policy]
+image: "../assets/img/unedic.png"
+---
+
+Link to [publication {{< fa link >}}](https://www.unedic.org/publications/qui-ouvre-un-droit-a-l-assurance-chomage-avec-un-contrat-saisonnier)
+
+{{< pdf ../assets/resources/unedic_saisonniers.pdf width=100% height=800 >}}
