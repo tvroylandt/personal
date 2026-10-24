@@ -1,123 +1,131 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://thomas.kantiles.com/articles.html</loc>
-    <lastmod>2024-10-18T07:11:00.949Z</lastmod>
-  </url>
-  <url>
-    <loc>https://thomas.kantiles.com/index.html</loc>
-    <lastmod>2024-10-18T07:11:09.128Z</lastmod>
-  </url>
-  <url>
-    <loc>https://thomas.kantiles.com/articles/unedic_reglementation2023.html</loc>
-    <lastmod>2024-08-20T20:57:43.063Z</lastmod>
-  </url>
-  <url>
-    <loc>https://thomas.kantiles.com/articles/unedic_reglementation2021.html</loc>
-    <lastmod>2024-08-20T20:56:27.150Z</lastmod>
-  </url>
-  <url>
-    <loc>https://thomas.kantiles.com/articles/pe_bmo2.html</loc>
-    <lastmod>2024-10-18T07:25:58.554Z</lastmod>
-  </url>
-  <url>
-    <loc>https://thomas.kantiles.com/articles/pe_filiere_maritime.html</loc>
-    <lastmod>2024-10-18T07:19:45.433Z</lastmod>
+    <loc>https://thomas.kantiles.com/about.html</loc>
+    <lastmod>2026-10-24T07:29:58.504Z</lastmod>
   </url>
   <url>
     <loc>https://thomas.kantiles.com/articles/pe_bmo1.html</loc>
-    <lastmod>2024-10-18T07:26:25.249Z</lastmod>
-  </url>
-  <url>
-    <loc>https://thomas.kantiles.com/articles/pe_offres2.html</loc>
-    <lastmod>2024-10-18T07:22:54.787Z</lastmod>
-  </url>
-  <url>
-    <loc>https://thomas.kantiles.com/articles/formations.html</loc>
-    <lastmod>2024-10-18T07:16:08.456Z</lastmod>
-  </url>
-  <url>
-    <loc>https://thomas.kantiles.com/articles/icp_techniques_quanti.html</loc>
-    <lastmod>2024-10-18T07:14:52.901Z</lastmod>
-  </url>
-  <url>
-    <loc>https://thomas.kantiles.com/articles/unedic_minimas.html</loc>
-    <lastmod>2024-08-20T20:52:48.161Z</lastmod>
-  </url>
-  <url>
-    <loc>https://thomas.kantiles.com/articles/pe_bmo_flash.html</loc>
-    <lastmod>2024-10-18T07:18:22.783Z</lastmod>
-  </url>
-  <url>
-    <loc>https://thomas.kantiles.com/articles/user2024.html</loc>
-    <lastmod>2024-10-18T07:27:57.920Z</lastmod>
-  </url>
-  <url>
-    <loc>https://thomas.kantiles.com/articles/france_strategie_vppec_sport.html</loc>
-    <lastmod>2024-10-18T07:17:12.615Z</lastmod>
-  </url>
-  <url>
-    <loc>https://thomas.kantiles.com/articles/drees_er978.html</loc>
-    <lastmod>2024-08-20T20:19:24.893Z</lastmod>
-  </url>
-  <url>
-    <loc>https://thomas.kantiles.com/articles/dares_pe_tensions.html</loc>
-    <lastmod>2024-10-18T07:13:56.109Z</lastmod>
+    <lastmod>2026-10-24T07:29:58.504Z</lastmod>
   </url>
   <url>
     <loc>https://thomas.kantiles.com/articles/drees_er953.html</loc>
-    <lastmod>2024-08-20T20:14:04.690Z</lastmod>
+    <lastmod>2026-10-24T07:29:58.504Z</lastmod>
   </url>
   <url>
-    <loc>https://thomas.kantiles.com/articles/drees_er986.html</loc>
-    <lastmod>2024-08-20T20:20:43.815Z</lastmod>
+    <loc>https://thomas.kantiles.com/articles/formations.html</loc>
+    <lastmod>2026-10-24T07:29:58.504Z</lastmod>
   </url>
   <url>
-    <loc>https://thomas.kantiles.com/articles/rr_2021_pagedown.html</loc>
-    <lastmod>2024-08-20T20:37:54.195Z</lastmod>
+    <loc>https://thomas.kantiles.com/articles/rr_2025_ia.html</loc>
+    <lastmod>2026-10-24T07:29:58.504Z</lastmod>
   </url>
   <url>
-    <loc>https://thomas.kantiles.com/articles/drees_er1044.html</loc>
-    <lastmod>2024-08-20T20:16:31.392Z</lastmod>
+    <loc>https://thomas.kantiles.com/articles/user2024.html</loc>
+    <lastmod>2026-10-24T07:29:58.504Z</lastmod>
   </url>
   <url>
-    <loc>https://thomas.kantiles.com/articles/pe_competences.html</loc>
-    <lastmod>2024-10-18T07:20:46.191Z</lastmod>
-  </url>
-  <url>
-    <loc>https://thomas.kantiles.com/articles/pe_offres1.html</loc>
-    <lastmod>2024-10-18T07:23:37.941Z</lastmod>
-  </url>
-  <url>
-    <loc>https://thomas.kantiles.com/articles/pe_offres3.html</loc>
-    <lastmod>2024-10-18T07:21:56.796Z</lastmod>
-  </url>
-  <url>
-    <loc>https://thomas.kantiles.com/articles/drees_dd05.html</loc>
-    <lastmod>2024-08-20T20:34:53.653Z</lastmod>
+    <loc>https://thomas.kantiles.com/articles/unedic_saisonniers.html</loc>
+    <lastmod>2026-10-24T07:29:58.504Z</lastmod>
   </url>
   <url>
     <loc>https://thomas.kantiles.com/articles/rr_2021_gouvdown.html</loc>
-    <lastmod>2024-10-18T05:27:09.491Z</lastmod>
+    <lastmod>2026-10-24T07:29:58.504Z</lastmod>
+  </url>
+  <url>
+    <loc>https://thomas.kantiles.com/articles/pe_bmo_flash.html</loc>
+    <lastmod>2026-10-24T07:29:58.504Z</lastmod>
+  </url>
+  <url>
+    <loc>https://thomas.kantiles.com/articles/unedic_minimas.html</loc>
+    <lastmod>2026-10-24T07:29:58.504Z</lastmod>
+  </url>
+  <url>
+    <loc>https://thomas.kantiles.com/articles/icp_techniques_quanti.html</loc>
+    <lastmod>2026-10-24T07:29:58.504Z</lastmod>
   </url>
   <url>
     <loc>https://thomas.kantiles.com/articles/pe_bmo3.html</loc>
-    <lastmod>2024-10-18T07:25:24.350Z</lastmod>
+    <lastmod>2026-10-24T07:29:58.504Z</lastmod>
   </url>
   <url>
-    <loc>https://thomas.kantiles.com/articles/pe_interim.html</loc>
-    <lastmod>2024-10-18T07:12:49.959Z</lastmod>
+    <loc>https://thomas.kantiles.com/articles/pe_competences.html</loc>
+    <lastmod>2026-10-24T07:29:58.504Z</lastmod>
+  </url>
+  <url>
+    <loc>https://thomas.kantiles.com/articles/drees_er978.html</loc>
+    <lastmod>2026-10-24T07:29:58.504Z</lastmod>
   </url>
   <url>
     <loc>https://thomas.kantiles.com/articles/unedic_sous-emploi.html</loc>
-    <lastmod>2024-08-20T20:49:25.038Z</lastmod>
+    <lastmod>2026-10-24T07:29:58.504Z</lastmod>
+  </url>
+  <url>
+    <loc>https://thomas.kantiles.com/articles/france_strategie_vppec_sport.html</loc>
+    <lastmod>2026-10-24T07:29:58.504Z</lastmod>
+  </url>
+  <url>
+    <loc>https://thomas.kantiles.com/articles/pe_offres1.html</loc>
+    <lastmod>2026-10-24T07:29:58.504Z</lastmod>
+  </url>
+  <url>
+    <loc>https://thomas.kantiles.com/index.html</loc>
+    <lastmod>2026-10-24T07:29:58.663Z</lastmod>
+  </url>
+  <url>
+    <loc>https://thomas.kantiles.com/articles/drees_dd05.html</loc>
+    <lastmod>2026-10-24T07:29:58.504Z</lastmod>
+  </url>
+  <url>
+    <loc>https://thomas.kantiles.com/articles/pe_interim.html</loc>
+    <lastmod>2026-10-24T07:29:58.504Z</lastmod>
+  </url>
+  <url>
+    <loc>https://thomas.kantiles.com/articles/unedic_reglementation2023.html</loc>
+    <lastmod>2026-10-24T07:29:58.504Z</lastmod>
+  </url>
+  <url>
+    <loc>https://thomas.kantiles.com/articles/drees_er1044.html</loc>
+    <lastmod>2026-10-24T07:29:58.504Z</lastmod>
+  </url>
+  <url>
+    <loc>https://thomas.kantiles.com/articles/pe_offres3.html</loc>
+    <lastmod>2026-10-24T07:29:58.504Z</lastmod>
+  </url>
+  <url>
+    <loc>https://thomas.kantiles.com/articles/rr_2021_pagedown.html</loc>
+    <lastmod>2026-10-24T07:29:58.504Z</lastmod>
+  </url>
+  <url>
+    <loc>https://thomas.kantiles.com/articles/dares_pe_tensions.html</loc>
+    <lastmod>2026-10-24T07:29:58.504Z</lastmod>
+  </url>
+  <url>
+    <loc>https://thomas.kantiles.com/articles/unedic_reglementation2021.html</loc>
+    <lastmod>2026-10-24T07:29:58.504Z</lastmod>
+  </url>
+  <url>
+    <loc>https://thomas.kantiles.com/articles/pe_offres2.html</loc>
+    <lastmod>2026-10-24T07:29:58.504Z</lastmod>
+  </url>
+  <url>
+    <loc>https://thomas.kantiles.com/articles/pe_filiere_maritime.html</loc>
+    <lastmod>2026-10-24T07:29:58.504Z</lastmod>
+  </url>
+  <url>
+    <loc>https://thomas.kantiles.com/articles/drees_er986.html</loc>
+    <lastmod>2026-10-24T07:29:58.504Z</lastmod>
+  </url>
+  <url>
+    <loc>https://thomas.kantiles.com/articles/pe_bmo2.html</loc>
+    <lastmod>2026-10-24T07:29:58.504Z</lastmod>
   </url>
   <url>
     <loc>https://thomas.kantiles.com/articles/drees_er1020.html</loc>
-    <lastmod>2024-08-20T20:16:27.873Z</lastmod>
+    <lastmod>2026-10-24T07:29:58.504Z</lastmod>
   </url>
   <url>
-    <loc>https://thomas.kantiles.com/about.html</loc>
-    <lastmod>2024-10-18T05:10:55.065Z</lastmod>
+    <loc>https://thomas.kantiles.com/articles.html</loc>
+    <lastmod>2026-10-24T07:29:58.504Z</lastmod>
   </url>
 </urlset>

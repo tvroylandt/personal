@@ -2,6 +2,8 @@
   {
     "listing": "/articles.html",
     "items": [
+      "/articles/rr_2025_ia.html",
+      "/articles/unedic_saisonniers.html",
       "/articles/user2024.html",
       "/articles/unedic_sous-emploi.html",
       "/articles/unedic_minimas.html",
@@ -26,8 +28,8 @@
       "/articles/drees_er1020.html",
       "/articles/drees_er986.html",
       "/articles/drees_er978.html",
-      "/articles/formations.html",
       "/articles/drees_dd05.html",
+      "/articles/formations.html",
       "/articles/drees_er953.html"
     ]
   }
